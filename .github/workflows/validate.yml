@@ -1,0 +1,29 @@
+name: Vérifier les documents
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run check
+      - run: npm test
+      - name: Vérifier la reproductibilité des documents ChatGPT
+        run: |
+          npm run chatgpt:pack
+          git diff --exit-code -- ChatGPT/Uploads ChatGPT/COURSE_INDEX.md

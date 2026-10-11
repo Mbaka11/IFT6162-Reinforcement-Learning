@@ -1,0 +1,3460 @@
+{
+  "schema_version": 1,
+  "site": "https://pierrelucbacon.com/rlbook/",
+  "repository": "https://github.com/pierrelux/rlbook",
+  "source_commit": "aa6b5d14c796dbf47a7865d327246983dbb86e25",
+  "navigation_retrieved_at": "2026-10-11T20:49:16.557Z",
+  "chapter_count": 31,
+  "order_authority": "Barre latérale MyST publiée (project.pages), contrôlée contre les deux tables des matières.",
+  "attribution": "Pierre-Luc Bacon — Building Up RL: From Dynamics and Control to Learning",
+  "redistribution": "Le propriétaire de ce dépôt indique que le professeur autorise cette copie. Aucune licence générale supplémentaire n’est accordée.",
+  "pages": [
+    {
+      "number": "01",
+      "title": "Building Up RL: From Dynamics and Control to Learning",
+      "groups": [],
+      "source_file": "intro.md",
+      "slug": "",
+      "url": "https://pierrelucbacon.com/rlbook/",
+      "filename": "01-intro.md",
+      "source_path": "Content/01-intro.md",
+      "website_path": "Content/Website/01-intro.md",
+      "source_sha256": "a68623ae9a1c23a5ecd28d862d11a4f16ba42ecaba49e987e37bcb245ce20a3a",
+      "website_html_sha256": "ff29ad84226423ce7cfd57cc82b8dfe963ea2341c75853f1fc307d2e71557ed5",
+      "retrieved_at": "2026-10-11T20:49:16.557Z",
+      "cache_file": ".cache/rlbook/01-intro.html",
+      "source_output_sha256": "5c274c077bcf6b5d6a522690bb1e98c09fbce5d8e45084fe71ba5c530345a915",
+      "website_output_sha256": "5a8ec9d32d202a2f8dc8a37bec663799d5e746e6f03182d0c3afedee2c4f65d0",
+      "website_title": "From Models to Learning",
+      "heading_count": 8,
+      "math_count": 0,
+      "image_count": 0
+    },
+    {
+      "number": "02",
+      "title": "Syllabus · Plan de cours",
+      "groups": [],
+      "source_file": "syllabus.md",
+      "slug": "syllabus",
+      "url": "https://pierrelucbacon.com/rlbook/syllabus",
+      "filename": "02-syllabus.md",
+      "source_path": "Content/02-syllabus.md",
+      "website_path": "Content/Website/02-syllabus.md",
+      "source_sha256": "eeb343c07de9d24a05c9d2f26177402c594ed9684b3bbf3a3d4a9ab992d8c356",
+      "website_html_sha256": "08c2a30bbd1fdb3ff1e45b499f6d365274bfeb8f06374ebc1174e1b0733bf082",
+      "retrieved_at": "2026-10-11T20:49:16.852Z",
+      "cache_file": ".cache/rlbook/02-syllabus.html",
+      "source_output_sha256": "8b585a0f600b9a2e4f07d304d7be3f4d195e7a57f799d57c026cdfc11b1e7053",
+      "website_output_sha256": "675138749290723d254f6f56a934fb597ac612b06f537afc8f4d1310fe22a423",
+      "website_title": "Syllabus · Plan de cours",
+      "heading_count": 19,
+      "math_count": 2,
+      "image_count": 0
+    },
+    {
+      "number": "03",
+      "title": "Controlled Systems: Boundaries, States, and Actions",
+      "groups": [
+        "Modeling Sequential Decisions"
+      ],
+      "source_file": "modeling-controlled-systems.md",
+      "slug": "modeling-controlled-systems",
+      "url": "https://pierrelucbacon.com/rlbook/modeling-controlled-systems",
+      "filename": "03-modeling-controlled-systems.md",
+      "source_path": "Content/03-modeling-controlled-systems.md",
+      "website_path": "Content/Website/03-modeling-controlled-systems.md",
+      "source_sha256": "eca8877f9d484a95da6d3003f67d4a4d704ecbebf4b867137f7e39c16b2b5baa",
+      "website_html_sha256": "51e7422a1496447ff936b479c88ada4f5551294b3a24b8a9c72714609688b66d",
+      "retrieved_at": "2026-10-11T20:49:17.061Z",
+      "cache_file": ".cache/rlbook/03-modeling-controlled-systems.html",
+      "source_output_sha256": "6cef63086bfdd4e5d6b0ea8081a41da8f354d5d45cdf52b9285c0f3cb9dd88eb",
+      "website_output_sha256": "8f5ed9a3ccde0f99d576cbe4e7461893c0bbdce664f8dcdb8f62ac217ec0cefd",
+      "website_title": "Controlled Systems: Boundaries, States, and Actions",
+      "heading_count": 7,
+      "math_count": 134,
+      "image_count": 5
+    },
+    {
+      "number": "04",
+      "title": "Stochastic Dynamics and Partial Observation",
+      "groups": [
+        "Modeling Sequential Decisions"
+      ],
+      "source_file": "stochastic-dynamics-observation.md",
+      "slug": "stochastic-dynamics-observation",
+      "url": "https://pierrelucbacon.com/rlbook/stochastic-dynamics-observation",
+      "filename": "04-stochastic-dynamics-observation.md",
+      "source_path": "Content/04-stochastic-dynamics-observation.md",
+      "website_path": "Content/Website/04-stochastic-dynamics-observation.md",
+      "source_sha256": "8c507a1f457f01a02df0882a2b97153020f9ee896a36b93efbd1a7641bcc0d5a",
+      "website_html_sha256": "1223a6b0a1ba91b4f508b48e5afdaab9d55503c195da434d96bc79e1b0a9aef0",
+      "retrieved_at": "2026-10-11T20:49:17.668Z",
+      "cache_file": ".cache/rlbook/04-stochastic-dynamics-observation.html",
+      "source_output_sha256": "78a0e1641cc045b193415c57b547e371be6fa22e6fdaae86e745833032e3eba6",
+      "website_output_sha256": "0c5bd8724110aa7333784616ef7e653240cf952c4970679d2b52f223a889fb06",
+      "website_title": "Stochastic Dynamics and Partial Observation",
+      "heading_count": 6,
+      "math_count": 137,
+      "image_count": 3
+    },
+    {
+      "number": "05",
+      "title": "Model Interfaces and Learned Components",
+      "groups": [
+        "Modeling Sequential Decisions"
+      ],
+      "source_file": "model-interfaces.md",
+      "slug": "model-interfaces",
+      "url": "https://pierrelucbacon.com/rlbook/model-interfaces",
+      "filename": "05-model-interfaces.md",
+      "source_path": "Content/05-model-interfaces.md",
+      "website_path": "Content/Website/05-model-interfaces.md",
+      "source_sha256": "1b28afb70702f6ae3ab741de768e3a30eadeea8b0515c62e20a0ff575e0db983",
+      "website_html_sha256": "15f935778fa63fb0ce3d9fdd59d2592beaa885216517f45efd039f3a0d547f2f",
+      "retrieved_at": "2026-10-11T20:49:18.271Z",
+      "cache_file": ".cache/rlbook/05-model-interfaces.html",
+      "source_output_sha256": "99034e1a3d53cf3fed23e889b410aa36a02dba5dbb20d3acf87fde31a88846aa",
+      "website_output_sha256": "417dd54f665fd5e848f9fbf579ca6beda4cebf899b01b305a0576b3480ee1fb4",
+      "website_title": "Model Interfaces and Learned Components",
+      "heading_count": 14,
+      "math_count": 116,
+      "image_count": 5
+    },
+    {
+      "number": "06",
+      "title": "Finite-Horizon Optimal Control Problems",
+      "groups": [
+        "Open-Loop Optimal Control"
+      ],
+      "source_file": "discrete-time-optimal-control.md",
+      "slug": "discrete-time-optimal-control",
+      "url": "https://pierrelucbacon.com/rlbook/discrete-time-optimal-control",
+      "filename": "06-discrete-time-optimal-control.md",
+      "source_path": "Content/06-discrete-time-optimal-control.md",
+      "website_path": "Content/Website/06-discrete-time-optimal-control.md",
+      "source_sha256": "b0e87c0db947ffa87e43fcf2488170639adfeffa4195b08c2ef480bed2e363d3",
+      "website_html_sha256": "ff6e5532f76c2a151efdd489385d19eb1f6558ec7ae98f41847b84935068fb58",
+      "retrieved_at": "2026-10-11T20:49:19.881Z",
+      "cache_file": ".cache/rlbook/06-discrete-time-optimal-control.html",
+      "source_output_sha256": "e6f701a2be1ddad1eb9b01e1903cc16fc0a752925c184eb14c71ab46623240f0",
+      "website_output_sha256": "1e71dc2c9081a8ee3ea76d609fd1039f9e9335461f21ebe64cd91df424d1d281",
+      "website_title": "Finite-Horizon Optimal Control Problems",
+      "heading_count": 22,
+      "math_count": 274,
+      "image_count": 2
+    },
+    {
+      "number": "07",
+      "title": "Adjoints and the Discrete-Time Pontryagin Principle",
+      "groups": [
+        "Open-Loop Optimal Control"
+      ],
+      "source_file": "discrete-time-pmp.md",
+      "slug": "discrete-time-pmp",
+      "url": "https://pierrelucbacon.com/rlbook/discrete-time-pmp",
+      "filename": "07-discrete-time-pmp.md",
+      "source_path": "Content/07-discrete-time-pmp.md",
+      "website_path": "Content/Website/07-discrete-time-pmp.md",
+      "source_sha256": "b9080cde4b80b5a70ff713bf9e9b16e8bede6053eff056e5d55f300d904a0ceb",
+      "website_html_sha256": "da86537eeb72f9ca003af001c8a0e0c9bfcc7f785b8e158e93c1d7f06c9617a7",
+      "retrieved_at": "2026-10-11T20:49:21.029Z",
+      "cache_file": ".cache/rlbook/07-discrete-time-pmp.html",
+      "source_output_sha256": "85ce4a7b97a8ee031660078a68b32a360da0a7d5c5fe3693709d181f31ba66ea",
+      "website_output_sha256": "702d16d5a511589de3c136ff92be6737ddc6ede2900ae138d8fc4430035fb5aa",
+      "website_title": "Adjoints and the Discrete-Time Pontryagin Principle",
+      "heading_count": 5,
+      "math_count": 115,
+      "image_count": 0
+    },
+    {
+      "number": "08",
+      "title": "Numerical Trajectory Optimization",
+      "groups": [
+        "Open-Loop Optimal Control"
+      ],
+      "source_file": "numerical-trajectory-optimization.md",
+      "slug": "numerical-trajectory-optimization",
+      "url": "https://pierrelucbacon.com/rlbook/numerical-trajectory-optimization",
+      "filename": "08-numerical-trajectory-optimization.md",
+      "source_path": "Content/08-numerical-trajectory-optimization.md",
+      "website_path": "Content/Website/08-numerical-trajectory-optimization.md",
+      "source_sha256": "a411b60c1b667b8f8d38da0d093008e17c1cffb42ad50545d7c833095f84c5c2",
+      "website_html_sha256": "316afee546fb40f098dde51bef8a5ec063e3ddb5b376ba467e2cb7139dbd9db8",
+      "retrieved_at": "2026-10-11T20:49:21.753Z",
+      "cache_file": ".cache/rlbook/08-numerical-trajectory-optimization.html",
+      "source_output_sha256": "a6d753de8a3bff000f6a3975d9b69ece654249d1c07ad59051e40e3f489600b7",
+      "website_output_sha256": "6f091ec7879c00f1c71ef071113e49aecf70b26d154a5c3f1332eecb00fdef37",
+      "website_title": "Numerical Trajectory Optimization",
+      "heading_count": 13,
+      "math_count": 197,
+      "image_count": 6
+    },
+    {
+      "number": "09",
+      "title": "iLQR and Differential Dynamic Programming",
+      "groups": [
+        "Open-Loop Optimal Control"
+      ],
+      "source_file": "iterative-trajectory-optimization.md",
+      "slug": "iterative-trajectory-optimization",
+      "url": "https://pierrelucbacon.com/rlbook/iterative-trajectory-optimization",
+      "filename": "09-iterative-trajectory-optimization.md",
+      "source_path": "Content/09-iterative-trajectory-optimization.md",
+      "website_path": "Content/Website/09-iterative-trajectory-optimization.md",
+      "source_sha256": "575801a77a5011d54f9d36fb99576bbc658f739a9147a956f7256eb2b76eb4cf",
+      "website_html_sha256": "ad7e1fef6e81677101d23337cdb882a52b3beb288361459bde69d97dec4c21c1",
+      "retrieved_at": "2026-10-11T20:49:22.738Z",
+      "cache_file": ".cache/rlbook/09-iterative-trajectory-optimization.html",
+      "source_output_sha256": "3daf6a45b0aecbd386172c37936afb49134b29c5569c7a5db0d6ac64424c1270",
+      "website_output_sha256": "5ad4194c45bc497ffbba497de6ade28bf19c770d2930d559517915f373cc17a3",
+      "website_title": "iLQR and Differential Dynamic Programming",
+      "heading_count": 16,
+      "math_count": 234,
+      "image_count": 7
+    },
+    {
+      "number": "10",
+      "title": "Continuous-Time Transcription and Collocation",
+      "groups": [
+        "Open-Loop Optimal Control"
+      ],
+      "source_file": "continuous-time-collocation.md",
+      "slug": "continuous-time-collocation",
+      "url": "https://pierrelucbacon.com/rlbook/continuous-time-collocation",
+      "filename": "10-continuous-time-collocation.md",
+      "source_path": "Content/10-continuous-time-collocation.md",
+      "website_path": "Content/Website/10-continuous-time-collocation.md",
+      "source_sha256": "e543364e2a9f7fa8866f2b74abcdb4172fbedd5c7c1b8f62d24f84e3fb0fa602",
+      "website_html_sha256": "7ba4b969eac329726a683ba8785438f6a25b6c3211177230065351048b4739ee",
+      "retrieved_at": "2026-10-11T20:49:24.151Z",
+      "cache_file": ".cache/rlbook/10-continuous-time-collocation.html",
+      "source_output_sha256": "667457b320647c41feee9a255e9a2d048d8807025d6ec7eb6ea8fb10d925a836",
+      "website_output_sha256": "b6ef2826c16215c4f84b08cbb37098160b33793b81b66a9f853b372543cc76eb",
+      "website_title": "Continuous-Time Transcription and Collocation",
+      "heading_count": 34,
+      "math_count": 1027,
+      "image_count": 12
+    },
+    {
+      "number": "11",
+      "title": "Model Predictive Path Integral Control",
+      "groups": [
+        "Open-Loop Optimal Control"
+      ],
+      "source_file": "model-predictive-path-integral-control.md",
+      "slug": "model-predictive-path-integral-control",
+      "url": "https://pierrelucbacon.com/rlbook/model-predictive-path-integral-control",
+      "filename": "11-model-predictive-path-integral-control.md",
+      "source_path": "Content/11-model-predictive-path-integral-control.md",
+      "website_path": "Content/Website/11-model-predictive-path-integral-control.md",
+      "source_sha256": "5675848e9cad2f957829aea702089727983e489aded90b212d9ff4f48f5952e5",
+      "website_html_sha256": "fa332da6acb44aaea6b36f8c16f80faa12f38c790164b45124c60900b7440f27",
+      "retrieved_at": "2026-10-11T20:49:27.170Z",
+      "cache_file": ".cache/rlbook/11-model-predictive-path-integral-control.html",
+      "source_output_sha256": "c50f18886a48c938e28ecff082765c8e0861cde4a2bcb6407cf28cc880ed1c75",
+      "website_output_sha256": "da5752088bb82819a277f89333221d7df5bcab652a5edb9596e0457ed47ce5c6",
+      "website_title": "Model Predictive Path Integral Control",
+      "heading_count": 25,
+      "math_count": 385,
+      "image_count": 5
+    },
+    {
+      "number": "12",
+      "title": "Receding-Horizon Control",
+      "groups": [
+        "Feedback Control"
+      ],
+      "source_file": "receding-horizon-control.md",
+      "slug": "receding-horizon-control",
+      "url": "https://pierrelucbacon.com/rlbook/receding-horizon-control",
+      "filename": "12-receding-horizon-control.md",
+      "source_path": "Content/12-receding-horizon-control.md",
+      "website_path": "Content/Website/12-receding-horizon-control.md",
+      "source_sha256": "9c978f200381ec5d5424011d66e78a9766913a4167ea221be14eb8d84539fc95",
+      "website_html_sha256": "d28e0fee33b62f7f56b281fca55913a1def23035dbf52f087b390c285877325c",
+      "retrieved_at": "2026-10-11T20:49:28.543Z",
+      "cache_file": ".cache/rlbook/12-receding-horizon-control.html",
+      "source_output_sha256": "d4b3451ad3560fc874fad755aa33eb2fe128921c9f3883851382138cac520a72",
+      "website_output_sha256": "6b8aceeccbb28eacee7e8323aeb0111463d3437dca5db29961c322fa640307c4",
+      "website_title": "Receding-Horizon Control",
+      "heading_count": 16,
+      "math_count": 121,
+      "image_count": 0
+    },
+    {
+      "number": "13",
+      "title": "MPC Variants and Reliable Operation",
+      "groups": [
+        "Feedback Control"
+      ],
+      "source_file": "mpc-variants-reliability.md",
+      "slug": "mpc-variants-reliability",
+      "url": "https://pierrelucbacon.com/rlbook/mpc-variants-reliability",
+      "filename": "13-mpc-variants-reliability.md",
+      "source_path": "Content/13-mpc-variants-reliability.md",
+      "website_path": "Content/Website/13-mpc-variants-reliability.md",
+      "source_sha256": "454ee5e1c6579f71dbdba54ca65cf29a511228e47400e7a4e954b9479b4b78c7",
+      "website_html_sha256": "4ebdba44c987d7b311dfc8055b2cbe615f90586b689edd0cd83e4c6d6d85fc5a",
+      "retrieved_at": "2026-10-11T20:49:28.857Z",
+      "cache_file": ".cache/rlbook/13-mpc-variants-reliability.html",
+      "source_output_sha256": "a6e89d91315f2422281fb08c2cfdecb1db6c2e15a63b340a590633ccd5224255",
+      "website_output_sha256": "e177e38fb2100a49fa846e17b3c752dd7675079c55b2fa730f866d02cde89d36",
+      "website_title": "MPC Variants and Reliable Operation",
+      "heading_count": 22,
+      "math_count": 82,
+      "image_count": 4
+    },
+    {
+      "number": "14",
+      "title": "Parametric and Approximate Controllers",
+      "groups": [
+        "Feedback Control"
+      ],
+      "source_file": "parametric-controllers.md",
+      "slug": "parametric-controllers",
+      "url": "https://pierrelucbacon.com/rlbook/parametric-controllers",
+      "filename": "14-parametric-controllers.md",
+      "source_path": "Content/14-parametric-controllers.md",
+      "website_path": "Content/Website/14-parametric-controllers.md",
+      "source_sha256": "cd50fe6806b97b09eb8a8473c4128115a5b93073a8c2d5dceb06cc2e98f4ca53",
+      "website_html_sha256": "c79a14f82be8800ccdfcee8403edc152b9fdd5a378f493425ca339018c264364",
+      "retrieved_at": "2026-10-11T20:49:29.887Z",
+      "cache_file": ".cache/rlbook/14-parametric-controllers.html",
+      "source_output_sha256": "ff137eae781b1e88792b2b50e0a75d0faebf85bbb35ab5d0ed71f39b738290e2",
+      "website_output_sha256": "edc4505db5dd6d75e405c607750f37364ee864e08f8f6f4b53d8ee5d38b80d45",
+      "website_title": "Parametric and Approximate Controllers",
+      "heading_count": 8,
+      "math_count": 99,
+      "image_count": 1
+    },
+    {
+      "number": "15",
+      "title": "Finite-Horizon Dynamic Programming",
+      "groups": [
+        "Dynamic Programming"
+      ],
+      "source_file": "finite-horizon-dp.md",
+      "slug": "finite-horizon-dp",
+      "url": "https://pierrelucbacon.com/rlbook/finite-horizon-dp",
+      "filename": "15-finite-horizon-dp.md",
+      "source_path": "Content/15-finite-horizon-dp.md",
+      "website_path": "Content/Website/15-finite-horizon-dp.md",
+      "source_sha256": "c892ee07ad321a6583588d1eece8567a588b83dbb06526cfef662cb986560ee1",
+      "website_html_sha256": "77895af6e3028ff2b0809f9d0b3ec2675e5b5f8a1b16c7a275ff383fab1ff920",
+      "retrieved_at": "2026-10-11T20:49:30.360Z",
+      "cache_file": ".cache/rlbook/15-finite-horizon-dp.html",
+      "source_output_sha256": "9ce5f92b9e58cee5148cf4620c63066230f2006dd4aa44508a0eb467b3ab4957",
+      "website_output_sha256": "ce4498e07d71dc97f36245c32f537f6c716caebe69cce13221e8ab374b7da38d",
+      "website_title": "Finite-Horizon Dynamic Programming",
+      "heading_count": 9,
+      "math_count": 213,
+      "image_count": 2
+    },
+    {
+      "number": "16",
+      "title": "Stochastic Dynamic Programming and Markov Decision Processes",
+      "groups": [
+        "Dynamic Programming"
+      ],
+      "source_file": "stochastic-dp.md",
+      "slug": "stochastic-dp",
+      "url": "https://pierrelucbacon.com/rlbook/stochastic-dp",
+      "filename": "16-stochastic-dp.md",
+      "source_path": "Content/16-stochastic-dp.md",
+      "website_path": "Content/Website/16-stochastic-dp.md",
+      "source_sha256": "afc04ff9bd81c8818cc0ae57cdea5200e0f85502b16282b385a011fedf895c29",
+      "website_html_sha256": "02ccb0534789a14418a1ba7c76a4346e755ed3599d278590269b07b638e4fd5d",
+      "retrieved_at": "2026-10-11T20:49:31.154Z",
+      "cache_file": ".cache/rlbook/16-stochastic-dp.html",
+      "source_output_sha256": "9705de0b955e1c36cbe056fedf6b216a51ab315ac4c40a223ed057878dd11fe2",
+      "website_output_sha256": "f4dee46b9934bd3b87646ccc36692e58fb0c8e3a9ec5004baf60ea5c1b7981f3",
+      "website_title": "Stochastic Dynamic Programming and Markov Decision Processes",
+      "heading_count": 9,
+      "math_count": 220,
+      "image_count": 1
+    },
+    {
+      "number": "17",
+      "title": "Path-Integral Stochastic Control",
+      "groups": [
+        "Dynamic Programming"
+      ],
+      "source_file": "path-integral-stochastic-control.md",
+      "slug": "path-integral-stochastic-control",
+      "url": "https://pierrelucbacon.com/rlbook/path-integral-stochastic-control",
+      "filename": "17-path-integral-stochastic-control.md",
+      "source_path": "Content/17-path-integral-stochastic-control.md",
+      "website_path": "Content/Website/17-path-integral-stochastic-control.md",
+      "source_sha256": "c43d4a29db00515b50c3b0aa54114d60324cdc44fc5f6be5e93d976136a49b74",
+      "website_html_sha256": "e75183b590574e66bbbba2fb70d22a0c7eb6605967e1b0e741a0e4ad24b2d376",
+      "retrieved_at": "2026-10-11T20:49:32.024Z",
+      "cache_file": ".cache/rlbook/17-path-integral-stochastic-control.html",
+      "source_output_sha256": "965a5b904de92cfbf45946c62048ec2e60d10a89d78712d1336c8eb0bee0426f",
+      "website_output_sha256": "1bb3d91939dc12f9b793202b9b6a4db27cd546c4610592489a47f1f3b66a8aad",
+      "website_title": "Path-Integral Stochastic Control",
+      "heading_count": 24,
+      "math_count": 263,
+      "image_count": 4
+    },
+    {
+      "number": "18",
+      "title": "Infinite-Horizon Markov Decision Processes",
+      "groups": [
+        "Dynamic Programming"
+      ],
+      "source_file": "infinite-horizon-mdps.md",
+      "slug": "infinite-horizon-mdps",
+      "url": "https://pierrelucbacon.com/rlbook/infinite-horizon-mdps",
+      "filename": "18-infinite-horizon-mdps.md",
+      "source_path": "Content/18-infinite-horizon-mdps.md",
+      "website_path": "Content/Website/18-infinite-horizon-mdps.md",
+      "source_sha256": "8bf4ff1a8ac79728a9aaa01f5be5bffb6b72239d64a93951156cb37b61a31305",
+      "website_html_sha256": "21c26f9b87b4fed44026b58f8b167fd412f3d7499903fbc0e901020ca580b860",
+      "retrieved_at": "2026-10-11T20:49:32.960Z",
+      "cache_file": ".cache/rlbook/18-infinite-horizon-mdps.html",
+      "source_output_sha256": "f9650d9fcdf05f7be8a5c33f2b6bce8a31cc0f6029ed39618a9507363bb22dbf",
+      "website_output_sha256": "b29e8e576bc1a55bf478f09dd142e460e424fdfef42455500d84e83bc9c549c2",
+      "website_title": "Infinite-Horizon Markov Decision Processes",
+      "heading_count": 19,
+      "math_count": 517,
+      "image_count": 2
+    },
+    {
+      "number": "19",
+      "title": "Smooth and Regularized Dynamic Programming",
+      "groups": [
+        "Dynamic Programming"
+      ],
+      "source_file": "regularized-dp.md",
+      "slug": "regularized-dp",
+      "url": "https://pierrelucbacon.com/rlbook/regularized-dp",
+      "filename": "19-regularized-dp.md",
+      "source_path": "Content/19-regularized-dp.md",
+      "website_path": "Content/Website/19-regularized-dp.md",
+      "source_sha256": "9f6207c1a8210ac371ad3016cd95da1e39007760d1d2198f22185da5688fb4af",
+      "website_html_sha256": "17d23a2694ff08461ba2e8391cca3d8f2a16b8b14a5819993a8da8ce53843758",
+      "retrieved_at": "2026-10-11T20:50:54.949Z",
+      "cache_file": ".cache/rlbook/19-regularized-dp.html",
+      "source_output_sha256": "cca2d0f01b475106f6471b0702bf59352bc024dfb8d47439ef562df8d27082ef",
+      "website_output_sha256": "a5ab81cf0d7f5e7a2427e1defeeb0bb005694a043d0843eec65e2ef8d3f70990",
+      "website_title": "Smooth and Regularized Dynamic Programming",
+      "heading_count": 20,
+      "math_count": 383,
+      "image_count": 0
+    },
+    {
+      "number": "20",
+      "title": "Weighted-Residual Methods",
+      "groups": [
+        "Approximate Value Methods"
+      ],
+      "source_file": "weighted-residual-methods.md",
+      "slug": "weighted-residual-methods",
+      "url": "https://pierrelucbacon.com/rlbook/weighted-residual-methods",
+      "filename": "20-weighted-residual-methods.md",
+      "source_path": "Content/20-weighted-residual-methods.md",
+      "website_path": "Content/Website/20-weighted-residual-methods.md",
+      "source_sha256": "34783923f6f370d123325b1c1b06a3edc5ea528aff894432d682f9caeabc6058",
+      "website_html_sha256": "bfbe16d02eadc3fd1db07903a82d532d244e0f84a04eb6f20b7535e30c667e6d",
+      "retrieved_at": "2026-10-11T20:50:55.876Z",
+      "cache_file": ".cache/rlbook/20-weighted-residual-methods.html",
+      "source_output_sha256": "100fb9136e41a2125fd11ea79f2163525538cedca7c43eb6d9bec44270116bba",
+      "website_output_sha256": "46d49f724f402d0ee17c3cfe558f74bd10fd1a7ee5c1f7c7512381cc72b497f1",
+      "website_title": "Weighted-Residual Methods",
+      "heading_count": 21,
+      "math_count": 271,
+      "image_count": 2
+    },
+    {
+      "number": "21",
+      "title": "Approximate Bellman Equations",
+      "groups": [
+        "Approximate Value Methods"
+      ],
+      "source_file": "approximate-bellman-equations.md",
+      "slug": "approximate-bellman-equations",
+      "url": "https://pierrelucbacon.com/rlbook/approximate-bellman-equations",
+      "filename": "21-approximate-bellman-equations.md",
+      "source_path": "Content/21-approximate-bellman-equations.md",
+      "website_path": "Content/Website/21-approximate-bellman-equations.md",
+      "source_sha256": "5c03f55b4b8a6bed98ba305ef813431dadb5bf2e9f2f87870662734dfd85e958",
+      "website_html_sha256": "fd5834a7fe9a2ae1910b3b35adca4b576c04a39d164a37b9a423b874134e3519",
+      "retrieved_at": "2026-10-11T20:50:56.603Z",
+      "cache_file": ".cache/rlbook/21-approximate-bellman-equations.html",
+      "source_output_sha256": "59eb15126d2e6b7ccbc078bb1546bad2f75c756e81fc0eb6e6ba70128854b29b",
+      "website_output_sha256": "14486f410b5fcf3279e03ea19dcbe2efc891aac80e43e3a8db9bf9190b2aa954",
+      "website_title": "Approximate Bellman Equations",
+      "heading_count": 25,
+      "math_count": 519,
+      "image_count": 0
+    },
+    {
+      "number": "22",
+      "title": "Monte Carlo Bellman Estimation",
+      "groups": [
+        "Approximate Value Methods"
+      ],
+      "source_file": "monte-carlo-bellman-estimation.md",
+      "slug": "monte-carlo-bellman-estimation",
+      "url": "https://pierrelucbacon.com/rlbook/monte-carlo-bellman-estimation",
+      "filename": "22-monte-carlo-bellman-estimation.md",
+      "source_path": "Content/22-monte-carlo-bellman-estimation.md",
+      "website_path": "Content/Website/22-monte-carlo-bellman-estimation.md",
+      "source_sha256": "1e5dc3379f7315b1e6cd0050466be0fac7e8ddbe386ec7bc8f5b5f968bcad2f8",
+      "website_html_sha256": "2a81afa469dd8248e3fece68fe1835829589efd327404cf1cfbeeb1c724e4d4a",
+      "retrieved_at": "2026-10-11T20:50:57.641Z",
+      "cache_file": ".cache/rlbook/22-monte-carlo-bellman-estimation.html",
+      "source_output_sha256": "0698347c7d77c80bf820c747692b274c62993fe037bc8ccea8f328f019672b04",
+      "website_output_sha256": "22827536c3c4f0393cfa4388ee59e4f293b77bbd06e796edf1e288942e3671e4",
+      "website_title": "Monte Carlo Bellman Estimation",
+      "heading_count": 20,
+      "math_count": 386,
+      "image_count": 0
+    },
+    {
+      "number": "23",
+      "title": "Fitted Q-Iteration and DQN",
+      "groups": [
+        "Approximate Value Methods"
+      ],
+      "source_file": "fitted-q-iteration.md",
+      "slug": "fitted-q-iteration",
+      "url": "https://pierrelucbacon.com/rlbook/fitted-q-iteration",
+      "filename": "23-fitted-q-iteration.md",
+      "source_path": "Content/23-fitted-q-iteration.md",
+      "website_path": "Content/Website/23-fitted-q-iteration.md",
+      "source_sha256": "ce7dd319d245af32bbaa24d0213c5bd072e3d79c47c8f20bf9437ebc678a90a2",
+      "website_html_sha256": "5fb1b8574f7887a30b7f479b9a3a5bdfbaf19a5feea51b87a4adc23341041811",
+      "retrieved_at": "2026-10-11T20:50:59.369Z",
+      "cache_file": ".cache/rlbook/23-fitted-q-iteration.html",
+      "source_output_sha256": "cc6f0e5ce8cd9a1061769d2ca263d1ff985bf1d78d6cccfae0d61d00eb214f62",
+      "website_output_sha256": "dfb8eff99e339f12fa7429570fa7da7ec68682c49693386ec959520ea6ad01a6",
+      "website_title": "Fitted Q-Iteration and DQN",
+      "heading_count": 20,
+      "math_count": 551,
+      "image_count": 3
+    },
+    {
+      "number": "24",
+      "title": "Amortized Action Optimization",
+      "groups": [
+        "Parameterized Policy Optimization"
+      ],
+      "source_file": "amortized-action-optimization.md",
+      "slug": "amortized-action-optimization",
+      "url": "https://pierrelucbacon.com/rlbook/amortized-action-optimization",
+      "filename": "24-amortized-action-optimization.md",
+      "source_path": "Content/24-amortized-action-optimization.md",
+      "website_path": "Content/Website/24-amortized-action-optimization.md",
+      "source_sha256": "389d2d4404418f439a82208cee7d3e10712d0d5ac0a1c3e78b1198714cc46a42",
+      "website_html_sha256": "4d1c17ffbd52b2814901f471ee588a718a7de370c06d0723779892aef35f2a41",
+      "retrieved_at": "2026-10-11T20:51:00.608Z",
+      "cache_file": ".cache/rlbook/24-amortized-action-optimization.html",
+      "source_output_sha256": "7539bbf9972f8fb4d9ebc0e1d53267d261aa69316e485f32f004ce5ef7eba340",
+      "website_output_sha256": "763961e479a5f06919142afbf51e7613b43cd678c276ed5a257e49eeb235245f",
+      "website_title": "Amortized Action Optimization",
+      "heading_count": 13,
+      "math_count": 330,
+      "image_count": 0
+    },
+    {
+      "number": "25",
+      "title": "Gradient Estimation for Stochastic Objectives",
+      "groups": [
+        "Parameterized Policy Optimization"
+      ],
+      "source_file": "gradient-estimation.md",
+      "slug": "gradient-estimation",
+      "url": "https://pierrelucbacon.com/rlbook/gradient-estimation",
+      "filename": "25-gradient-estimation.md",
+      "source_path": "Content/25-gradient-estimation.md",
+      "website_path": "Content/Website/25-gradient-estimation.md",
+      "source_sha256": "fbf04e3c0b6d8adb568006decd99c5622c1b97b3fb9886f60502ba253f4fa86d",
+      "website_html_sha256": "db8271e164ace45328304682b75452e957047ef51e6d8afb35d96ea077b841ae",
+      "retrieved_at": "2026-10-11T20:51:01.289Z",
+      "cache_file": ".cache/rlbook/25-gradient-estimation.html",
+      "source_output_sha256": "a9f118135d7cfc6add4840cdc6ec8bf2b7de36a53f00ab30793b7d7cadf54bd8",
+      "website_output_sha256": "aa5f16a6abed1cfc99dc5e7e6f9eeaca4eab7423c6602cbf753b173e6700e94d",
+      "website_title": "Gradient Estimation for Stochastic Objectives",
+      "heading_count": 13,
+      "math_count": 103,
+      "image_count": 0
+    },
+    {
+      "number": "26",
+      "title": "Regularized and Residual-Based Policy Learning",
+      "groups": [
+        "Parameterized Policy Optimization"
+      ],
+      "source_file": "regularized-policy-learning.md",
+      "slug": "regularized-policy-learning",
+      "url": "https://pierrelucbacon.com/rlbook/regularized-policy-learning",
+      "filename": "26-regularized-policy-learning.md",
+      "source_path": "Content/26-regularized-policy-learning.md",
+      "website_path": "Content/Website/26-regularized-policy-learning.md",
+      "source_sha256": "f4751aadeba9b98e02109585cda85e7ca267b18d8754648c0bd4413a6a916ba6",
+      "website_html_sha256": "344367d42946effadfae2c1386000e52cd60b646c86adfa332c9c5a270f76e13",
+      "retrieved_at": "2026-10-11T20:51:01.782Z",
+      "cache_file": ".cache/rlbook/26-regularized-policy-learning.html",
+      "source_output_sha256": "fc6faaadb8e24e834c5be1750d732f5709ce0c82b7ee23a7bc608c7f7d97a0d7",
+      "website_output_sha256": "2ee24e35c59271875bce91b52564d0e8981ea36a59a327a3b7940c507b44e3cc",
+      "website_title": "Regularized and Residual-Based Policy Learning",
+      "heading_count": 18,
+      "math_count": 233,
+      "image_count": 0
+    },
+    {
+      "number": "27",
+      "title": "Policy Gradients and Actor-Critic",
+      "groups": [
+        "Parameterized Policy Optimization"
+      ],
+      "source_file": "policy-gradients.md",
+      "slug": "policy-gradients",
+      "url": "https://pierrelucbacon.com/rlbook/policy-gradients",
+      "filename": "27-policy-gradients.md",
+      "source_path": "Content/27-policy-gradients.md",
+      "website_path": "Content/Website/27-policy-gradients.md",
+      "source_sha256": "dfc7fe6f854d4edf0e1b8a0389ff8d2698eab67251e1d4b469eb1c52cebe814c",
+      "website_html_sha256": "142d5c60705105f75f0eb047322bc6e2e2dc1ca534ea5bc39fdc27e67d442896",
+      "retrieved_at": "2026-10-11T20:51:02.498Z",
+      "cache_file": ".cache/rlbook/27-policy-gradients.html",
+      "source_output_sha256": "27e518965d9fc10491e440d2f0888883b160aadba4af117d2384ef3909144841",
+      "website_output_sha256": "5b0a713032db6630c9e5d4a3822040df484147908c5ae59645c5e817bc5d14f8",
+      "website_title": "Policy Gradients and Actor-Critic",
+      "heading_count": 30,
+      "math_count": 585,
+      "image_count": 1
+    },
+    {
+      "number": "28",
+      "title": "Direct Collocation for a Pendulum Swing-Up",
+      "groups": [
+        "Demos"
+      ],
+      "source_file": "lab/notebooks/08_collocation_from_nodes.ipynb",
+      "slug": "collocation-from-nodes",
+      "url": "https://pierrelucbacon.com/rlbook/collocation-from-nodes",
+      "filename": "28-collocation-from-nodes.md",
+      "source_path": "Content/28-collocation-from-nodes.md",
+      "website_path": "Content/Website/28-collocation-from-nodes.md",
+      "source_sha256": "bfc24c18e8a877dbea1e24d21b16d4f501149d2947351e9dca9d7b8c13839cc2",
+      "website_html_sha256": "7ee521c22cdb8f2d65ccce736c381497decfe61b71d1584a77a965b7d9169789",
+      "retrieved_at": "2026-10-11T20:51:03.983Z",
+      "cache_file": ".cache/rlbook/28-collocation-from-nodes.html",
+      "source_output_sha256": "68c58f57eb246618ff0e95a25ff26223fab89e42eddd6bcb9daa9236ce87c36f",
+      "website_output_sha256": "006d9c3bab1d8429e69b5d90339a2acc42496416635d82c5cf7aba5be0d08236",
+      "website_title": "Direct Collocation for a Pendulum Swing-Up",
+      "heading_count": 11,
+      "math_count": 317,
+      "image_count": 5
+    },
+    {
+      "number": "29",
+      "title": "Example COCPs",
+      "groups": [
+        "Appendix"
+      ],
+      "source_file": "appendix_examples.md",
+      "slug": "appendix-examples",
+      "url": "https://pierrelucbacon.com/rlbook/appendix-examples",
+      "filename": "29-appendix-examples.md",
+      "source_path": "Content/29-appendix-examples.md",
+      "website_path": "Content/Website/29-appendix-examples.md",
+      "source_sha256": "9e3ca0c82fe986fdd48c005cfdbf16a2cad1ea35c0c521c97ddda2b1d6c5e226",
+      "website_html_sha256": "761242f0646626708cf7e25b568199e1d60401cac3905b6e0df121fe7957a163",
+      "retrieved_at": "2026-10-11T20:51:04.923Z",
+      "cache_file": ".cache/rlbook/29-appendix-examples.html",
+      "source_output_sha256": "702f0a173e3d126bf9223e9e095289771a07a12b0d38912028a5989be61bbef4",
+      "website_output_sha256": "e3d358d0a292177c28551b9b61da5d25d28bd0ccae3c3a16da7ecfe79770abb9",
+      "website_title": "Example COCPs",
+      "heading_count": 5,
+      "math_count": 102,
+      "image_count": 2
+    },
+    {
+      "number": "30",
+      "title": "Solving Initial Value Problems",
+      "groups": [
+        "Appendix"
+      ],
+      "source_file": "appendix_ivps.md",
+      "slug": "appendix-ivps",
+      "url": "https://pierrelucbacon.com/rlbook/appendix-ivps",
+      "filename": "30-appendix-ivps.md",
+      "source_path": "Content/30-appendix-ivps.md",
+      "website_path": "Content/Website/30-appendix-ivps.md",
+      "source_sha256": "987e47b013ff513ed0a6439277eacd4955297eda928e940d76077ba3144084d8",
+      "website_html_sha256": "2e43f8559e96118283e96235bf395edbf1e10afeebfc8f28857aed113c79e63b",
+      "retrieved_at": "2026-10-11T20:51:05.447Z",
+      "cache_file": ".cache/rlbook/30-appendix-ivps.html",
+      "source_output_sha256": "349cfb447ef834029e9984350a7cd8f3b6f82874f48c78be12a587d6bd9af583",
+      "website_output_sha256": "dda9541d9c0797c4444a8805a8ac89c5631778452f8a9601d87e95e70aed09b7",
+      "website_title": "Solving Initial Value Problems",
+      "heading_count": 12,
+      "math_count": 53,
+      "image_count": 0
+    },
+    {
+      "number": "31",
+      "title": "Nonlinear Programming",
+      "groups": [
+        "Appendix"
+      ],
+      "source_file": "appendix_nlp.md",
+      "slug": "appendix-nlp",
+      "url": "https://pierrelucbacon.com/rlbook/appendix-nlp",
+      "filename": "31-appendix-nlp.md",
+      "source_path": "Content/31-appendix-nlp.md",
+      "website_path": "Content/Website/31-appendix-nlp.md",
+      "source_sha256": "4747f4869caa68a4a5acb309010b58f12cd9f243a8b8be40ca3a8234848e40e8",
+      "website_html_sha256": "f839e189b004110a4592d6fb029fbb321451785e7fc4edb2912f4fc3fb29f963",
+      "retrieved_at": "2026-10-11T20:51:05.783Z",
+      "cache_file": ".cache/rlbook/31-appendix-nlp.html",
+      "source_output_sha256": "fca2e88d96bb9ed03e35020cf4e7ac445acca5d8042c9c43053c342b606a3317",
+      "website_output_sha256": "e525b13de069caa9f4932f177ff3959879829f45104c3af8b1da206df37e9baf",
+      "website_title": "Nonlinear Programming",
+      "heading_count": 19,
+      "math_count": 264,
+      "image_count": 4
+    }
+  ],
+  "assets": [
+    {
+      "kind": "source",
+      "source_file": "_static/aircraft_mppi/flight_comparison.svg",
+      "path": "Content/Assets/Source/_static/aircraft_mppi/flight_comparison.svg",
+      "sha256": "e6f5094cd2bfe01589d46e6e21a454c9010c22d32df837f076a8152dafc7a0b3",
+      "bytes": 117113
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/aircraft_mppi/metrics.svg",
+      "path": "Content/Assets/Source/_static/aircraft_mppi/metrics.svg",
+      "sha256": "70e871096695266e0f3a6a1e1f0d8d44c08b407cb28cff6f55cbac438a07aedb",
+      "bytes": 76552
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/aircraft_mppi/wind_uncertainty.svg",
+      "path": "Content/Assets/Source/_static/aircraft_mppi/wind_uncertainty.svg",
+      "sha256": "0ebab402c309f4f591c225cc98cbf601ebe5c5be1b04bea0977118da597a9c23",
+      "bytes": 61342
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/battery/fast-charging.svg",
+      "path": "Content/Assets/Source/_static/battery/fast-charging.svg",
+      "sha256": "f7594677a8aae51541178fb1be223e947be36e2ee937c6ae1f0893d7bf5526b6",
+      "bytes": 156187
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/bellman-contraction-fallback.png",
+      "path": "Content/Assets/Source/_static/bellman-contraction-fallback.png",
+      "sha256": "2d9fd1177c7002aa66d2ca1305b1eb425f683a8afabd6209378156a32103f388",
+      "bytes": 62956
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/bixi/bixi-completed-trip-censoring.svg",
+      "path": "Content/Assets/Source/_static/bixi/bixi-completed-trip-censoring.svg",
+      "sha256": "5201ac07f0f394182540a1b180fe6247bc57019f2e6d2c0a9820079cfa2a6d7c",
+      "bytes": 61799
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/bixi/bixi-feedback-evidence.svg",
+      "path": "Content/Assets/Source/_static/bixi/bixi-feedback-evidence.svg",
+      "sha256": "47694a8be25a1222e338aab1fedd27d4e141ae3279cdf66489c023ecea5dac86",
+      "bytes": 107875
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/bixi/bixi-model-interface.svg",
+      "path": "Content/Assets/Source/_static/bixi/bixi-model-interface.svg",
+      "sha256": "0c98b9526a2cc8ebb531c44f58b7910d18188659a12cd5c1415d625bba5358e9",
+      "bytes": 60702
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/boat_docking/convergence.svg",
+      "path": "Content/Assets/Source/_static/boat_docking/convergence.svg",
+      "sha256": "6a3fc967422f8516aeca03be52a81a96e7fcb290962266f72c2d03d88712372f",
+      "bytes": 34844
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/boat_docking/future-and-motion.svg",
+      "path": "Content/Assets/Source/_static/boat_docking/future-and-motion.svg",
+      "sha256": "09df7026c8a47a6d5fb9c02862bb87efa41f9307bac9f3ccd18d75166b80a472",
+      "bytes": 39148
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/boat_docking/iterations.svg",
+      "path": "Content/Assets/Source/_static/boat_docking/iterations.svg",
+      "sha256": "c4977f947481547d80f7dbc113a2dd1ef9ad1d18190e4ac64d973bc257a00752",
+      "bytes": 27790
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/boat_docking/paths.svg",
+      "path": "Content/Assets/Source/_static/boat_docking/paths.svg",
+      "sha256": "477b1afe718051e17aa61daf506c9353b989bc1fd04e77f799c3638dab95fe06",
+      "bytes": 31291
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/brownian_mppi/brownian-feedback.svg",
+      "path": "Content/Assets/Source/_static/brownian_mppi/brownian-feedback.svg",
+      "sha256": "f0f2089f387d6ea97ef3feb7b020142fda21d259bf81aa1969d93498084c40a7",
+      "bytes": 27769
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/brownian_mppi/brownian-outcomes.svg",
+      "path": "Content/Assets/Source/_static/brownian_mppi/brownian-outcomes.svg",
+      "sha256": "be3ae9cde22475f624170cf941b86280be763f9331d955b1a842c3b57911c090",
+      "bytes": 27795
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/brownian_mppi/brownian-passages.svg",
+      "path": "Content/Assets/Source/_static/brownian_mppi/brownian-passages.svg",
+      "sha256": "7493f6306a25a86e7afe8743db9a22ea9b4c6327f3da0659ccbd971ad581df9d",
+      "bytes": 92475
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/brownian_mppi/brownian-samples.svg",
+      "path": "Content/Assets/Source/_static/brownian_mppi/brownian-samples.svg",
+      "sha256": "1d0c2dbed41f9bd30cfb07c2bf81ae9b8cd122afdf45b434db7dffab9a1c2600",
+      "bytes": 86446
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/brownian_mppi/exponential-weights.svg",
+      "path": "Content/Assets/Source/_static/brownian_mppi/exponential-weights.svg",
+      "sha256": "7bcb51e87e40e02449917e8035d196a2f810f6e7b22362408c2ce3ce0da2c52c",
+      "bytes": 121757
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/brownian_mppi/gaussian-mean.svg",
+      "path": "Content/Assets/Source/_static/brownian_mppi/gaussian-mean.svg",
+      "sha256": "737305ac392dc8930d5df6ba938d4a3763912f048bbe3bf7798d982c8b2d65e7",
+      "bytes": 222752
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/collocation/collocation-stage.svg",
+      "path": "Content/Assets/Source/_static/collocation/collocation-stage.svg",
+      "sha256": "4514c2c279c093a5b8f1b3bd3618753f935478f6854a435991df2e51cd259121",
+      "bytes": 49161
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/collocation/destination-and-slope-stages.svg",
+      "path": "Content/Assets/Source/_static/collocation/destination-and-slope-stages.svg",
+      "sha256": "3fbd7442f6c22a3877e74798bc2a27d136434ff70cb8381f42e347d7d2c0a527",
+      "bytes": 169754
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/collocation/evaluation-and-differentiation.svg",
+      "path": "Content/Assets/Source/_static/collocation/evaluation-and-differentiation.svg",
+      "sha256": "cf648646795afa9a7fdba78f4ac4eb024b15d4acadb93afb6f3a907f0670b821",
+      "bytes": 218974
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/collocation/linear-control-area.svg",
+      "path": "Content/Assets/Source/_static/collocation/linear-control-area.svg",
+      "sha256": "f74efcfa1229e84033d87c953cb0da7aaaffe38dedde986b4274ee63da575c01",
+      "bytes": 2837
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/collocation/local-time-pieces.svg",
+      "path": "Content/Assets/Source/_static/collocation/local-time-pieces.svg",
+      "sha256": "a2ab2ed68a4482ce4574c949079de10224f42c064f193aede3a04c987b6f6ed8",
+      "bytes": 63829
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/collocation/nlp-quantities.svg",
+      "path": "Content/Assets/Source/_static/collocation/nlp-quantities.svg",
+      "sha256": "a570d02037145a922ab4d848ea746d2f668e47982d1ec2783d6853898b95d882",
+      "bytes": 223534
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/collocation/piecewise-trajectory.svg",
+      "path": "Content/Assets/Source/_static/collocation/piecewise-trajectory.svg",
+      "sha256": "1e5719c9e3b15b3a38b0714ec11b9e833396acc82cff034de66ce231f4229405",
+      "bytes": 63932
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/collocation/polynomial-coordinate-operators.svg",
+      "path": "Content/Assets/Source/_static/collocation/polynomial-coordinate-operators.svg",
+      "sha256": "1a542ebe5c8715fc962f41a68f7e62992cf95f838ffa586b0bc26ccc34cc55c7",
+      "bytes": 6642
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/collocation/stage-and-endpoint.svg",
+      "path": "Content/Assets/Source/_static/collocation/stage-and-endpoint.svg",
+      "sha256": "0ff41676eee447df207583b043a51702b6d295082d017269baaf6fb78ca3345e",
+      "bytes": 130562
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/collocation/switching-trajectory.svg",
+      "path": "Content/Assets/Source/_static/collocation/switching-trajectory.svg",
+      "sha256": "cc79c7bbd27b95b5a98250a47fc063b78277a3e1043026f6ea39bb16fd93262a",
+      "bytes": 53059
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/cubesat/differential-drag.svg",
+      "path": "Content/Assets/Source/_static/cubesat/differential-drag.svg",
+      "sha256": "bb76eed3f9ce031101f95826eb6e0f4ab7fbcbb6775f967a9875a202610936b2",
+      "bytes": 251151
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/gimbal/partial-observability.svg",
+      "path": "Content/Assets/Source/_static/gimbal/partial-observability.svg",
+      "sha256": "24784612f058ae36ee493aec792a9ac3b1e98d977eae8beb0c3b16c4eb7cc852",
+      "bytes": 81608
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/heat_exchanger.svg",
+      "path": "Content/Assets/Source/_static/heat_exchanger.svg",
+      "sha256": "13e809d4ced5e9227bebc6a6bc0b6f27767abe937ae1d5bf2ea48b657b110a07",
+      "bytes": 1780
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/inference_serving/batch-calibration.svg",
+      "path": "Content/Assets/Source/_static/inference_serving/batch-calibration.svg",
+      "sha256": "aae56374e03bc1ee961d245c0abc78d1b6dca4a6dba74f7b71805a6647d19cde",
+      "bytes": 40262
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/inference_serving/fqi.svg",
+      "path": "Content/Assets/Source/_static/inference_serving/fqi.svg",
+      "sha256": "61673770df8d8a3867c397438233a2c7b1ba6c563c23255aa1c85a5562b70036",
+      "bytes": 155045
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/inference_serving/modeling.svg",
+      "path": "Content/Assets/Source/_static/inference_serving/modeling.svg",
+      "sha256": "6c5c6d22331d204c13e965807675a18a68bcd80b3d7dcfe5068c1332fc21d129",
+      "bytes": 17952
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/inference_serving/mpc.svg",
+      "path": "Content/Assets/Source/_static/inference_serving/mpc.svg",
+      "sha256": "80ee1e13f9a32e7857f3e9003634db24534db873416b9db37c9a9f2b5bceb7c3",
+      "bytes": 29921
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/inference_serving/open-loop.svg",
+      "path": "Content/Assets/Source/_static/inference_serving/open-loop.svg",
+      "sha256": "06155cce372a43a9579763c7c204ce01484046a81128967967c562d9a4856c23",
+      "bytes": 21804
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/inference_serving/scheduling.svg",
+      "path": "Content/Assets/Source/_static/inference_serving/scheduling.svg",
+      "sha256": "2f4b00e4d8d309f9f8e81e13e2dfec2d923fd61cff7375f0b78c2fca1e4907f7",
+      "bytes": 114347
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/inference_serving/thermal-phase-validation.svg",
+      "path": "Content/Assets/Source/_static/inference_serving/thermal-phase-validation.svg",
+      "sha256": "23fad6b26a8aeb06acaf8638b885e18e81c61e891b6bbcc757b30f8e5fa76dc3",
+      "bytes": 159824
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/inference-serving-boundary.svg",
+      "path": "Content/Assets/Source/_static/inference-serving-boundary.svg",
+      "sha256": "dd1ad81db6f52013f6a1a3db0af93bde4220f7560d245840f1c475bf5b6ff1e1",
+      "bytes": 18404
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/nuclear_reactor.svg",
+      "path": "Content/Assets/Source/_static/nuclear_reactor.svg",
+      "sha256": "683d1c4429e6a6f881e5104ecf1c822273957ac41b3f7ffb2774b5c0a46aa77d",
+      "bytes": 3310
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/open-loop-vs-feedback.svg",
+      "path": "Content/Assets/Source/_static/open-loop-vs-feedback.svg",
+      "sha256": "dde7e2b0b72dcf392a1f39d43a3fbcb6526be1d41b0af13e35a9c01663962f14",
+      "bytes": 43182
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/sampling-and-integration.svg",
+      "path": "Content/Assets/Source/_static/sampling-and-integration.svg",
+      "sha256": "69782b4ac80545940397e2825dc39fd7be07033527717cc87fbb5b2064f693a9",
+      "bytes": 54684
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/swing_modeling/model_audit.svg",
+      "path": "Content/Assets/Source/_static/swing_modeling/model_audit.svg",
+      "sha256": "5922fcbab03d56f7f782397d249ab93a8f3ef2fca7440ee5dc5011d085c578a1",
+      "bytes": 183866
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/swing_ppo/swing_ppo_learning.png",
+      "path": "Content/Assets/Source/_static/swing_ppo/swing_ppo_learning.png",
+      "sha256": "68b52b2781d37091c8d056fe1864ba0c673070bb80c219aa749579c514cd1203",
+      "bytes": 65096
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/swing-reduced-coordinates.svg",
+      "path": "Content/Assets/Source/_static/swing-reduced-coordinates.svg",
+      "sha256": "0316a937d9c4d505b8680029377e74106972980228fa62be1211e9bfc87ced1c",
+      "bytes": 16267
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/thermoacoustic_pulldown/convergence.svg",
+      "path": "Content/Assets/Source/_static/thermoacoustic_pulldown/convergence.svg",
+      "sha256": "cd1133782f96e481843e95fec2a4a3cd1d2a1b0d16fed215d6941795767832fe",
+      "bytes": 25119
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/thermoacoustic_pulldown/pulldown.svg",
+      "path": "Content/Assets/Source/_static/thermoacoustic_pulldown/pulldown.svg",
+      "sha256": "7afb19d6cf9a5913c8a7b2597229174dee3b01fd146538ce2114a9c9ce56e3f1",
+      "bytes": 28018
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/thermoacoustic_pulldown/variants.svg",
+      "path": "Content/Assets/Source/_static/thermoacoustic_pulldown/variants.svg",
+      "sha256": "8b3a2718585e267db76634f5edffd619b1bab03c2b64649dc24685dc29f29a9b",
+      "bytes": 47775
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/truck_parking/conditioning.svg",
+      "path": "Content/Assets/Source/_static/truck_parking/conditioning.svg",
+      "sha256": "6827127364b2c31809c9f64d6cc99dd44de1e2201e10f1d8fef8bba95bf19b78",
+      "bytes": 59116
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/truck_parking/iterations.svg",
+      "path": "Content/Assets/Source/_static/truck_parking/iterations.svg",
+      "sha256": "16124841847f794dc7db9bbfe0f119f34b4475e1893bd52967533d09957d9d35",
+      "bytes": 35157
+    },
+    {
+      "kind": "source",
+      "source_file": "_static/truck_parking/plan.svg",
+      "path": "Content/Assets/Source/_static/truck_parking/plan.svg",
+      "sha256": "8fb31bb455b203844a017071917a8fca468ea01734ec23030d85d9eb0ebd1035",
+      "bytes": 36490
+    },
+    {
+      "kind": "source",
+      "source_file": "artifacts/aircraft_mppi/results.md",
+      "path": "Content/Assets/Source/artifacts/aircraft_mppi/results.md",
+      "sha256": "5057a530c50c0d671085859aa0c2696cd2e7d973be1a422cad40fdae32dec0d2",
+      "bytes": 1367
+    },
+    {
+      "kind": "source",
+      "source_file": "artifacts/battery/results.md",
+      "path": "Content/Assets/Source/artifacts/battery/results.md",
+      "sha256": "4ac2cea2e739c3c994ad07a26ca37aec7d18d42fce10be65737668ee01b92da7",
+      "bytes": 920
+    },
+    {
+      "kind": "source",
+      "source_file": "artifacts/bixi/results.md",
+      "path": "Content/Assets/Source/artifacts/bixi/results.md",
+      "sha256": "770508a0341eb4091549309fd3853e6edfbf977773c35e366b6c00312cf1c97e",
+      "bytes": 802
+    },
+    {
+      "kind": "source",
+      "source_file": "artifacts/boat_docking/results.md",
+      "path": "Content/Assets/Source/artifacts/boat_docking/results.md",
+      "sha256": "999d4f9ce1d14cbca8a7b3610d364f2b16be7adf858040010d189926d684f5ce",
+      "bytes": 703
+    },
+    {
+      "kind": "source",
+      "source_file": "artifacts/cubesat/results.md",
+      "path": "Content/Assets/Source/artifacts/cubesat/results.md",
+      "sha256": "1f3e5f08e4e8ef40c0de6e777692ee1729392b77adfcf45518070d3a051688ab",
+      "bytes": 2035
+    },
+    {
+      "kind": "source",
+      "source_file": "artifacts/gimbal/results.md",
+      "path": "Content/Assets/Source/artifacts/gimbal/results.md",
+      "sha256": "6a93d472f3c21b0a8f0a80036d7389b7625b6daac7c8e670d2eb2aa474349c35",
+      "bytes": 348
+    },
+    {
+      "kind": "source",
+      "source_file": "artifacts/inference_serving/thermal_phase_result.md",
+      "path": "Content/Assets/Source/artifacts/inference_serving/thermal_phase_result.md",
+      "sha256": "b38f2d0a93c5c64c3136fa3f07535dec2943b5b1245df120d78108125e2444e7",
+      "bytes": 1035
+    },
+    {
+      "kind": "source",
+      "source_file": "artifacts/swing_modeling/results.md",
+      "path": "Content/Assets/Source/artifacts/swing_modeling/results.md",
+      "sha256": "eeb25756dd06c2955d12244db8c763ed2c01126f0125d5545ba3d0bf638dd1a8",
+      "bytes": 815
+    },
+    {
+      "kind": "source",
+      "source_file": "artifacts/thermoacoustic_pulldown/results.md",
+      "path": "Content/Assets/Source/artifacts/thermoacoustic_pulldown/results.md",
+      "sha256": "86e444810bd4c32ac50f238ab9474a51205b29d5eb1cc6f76c4b525e468694c1",
+      "bytes": 1139
+    },
+    {
+      "kind": "source",
+      "source_file": "artifacts/truck_parking/results.md",
+      "path": "Content/Assets/Source/artifacts/truck_parking/results.md",
+      "sha256": "bd70eab3798df620d93b1c36ff38c9524494d4639ecd0917b10668520a89c9a6",
+      "bytes": 1008
+    },
+    {
+      "kind": "source",
+      "source_file": "code/battery_control.py",
+      "path": "Content/Assets/Source/code/battery_control.py",
+      "sha256": "67f5e9ef88055b58cac11b250a3ee7f55fbe93989fd060fc476bb0f57330c36b",
+      "bytes": 42830
+    },
+    {
+      "kind": "source",
+      "source_file": "code/bixi_control.py",
+      "path": "Content/Assets/Source/code/bixi_control.py",
+      "sha256": "188eaac0356579a2148e10062b7a9dca99e267fc090f89e33046eae08b84dc07",
+      "bytes": 36353
+    },
+    {
+      "kind": "source",
+      "source_file": "code/cartpole_control.py",
+      "path": "Content/Assets/Source/code/cartpole_control.py",
+      "sha256": "e11caabb46764769c30b2114618e1c2f90e2eeb849b945b506fa35a20cc7c709",
+      "bytes": 39269
+    },
+    {
+      "kind": "source",
+      "source_file": "code/collocation_transcription.py",
+      "path": "Content/Assets/Source/code/collocation_transcription.py",
+      "sha256": "a94403f3604ac802160bd742f4e0e4bfb4d20dd48c9af04a9d2a788363e6fbc1",
+      "bytes": 10220
+    },
+    {
+      "kind": "source",
+      "source_file": "code/crane_control.py",
+      "path": "Content/Assets/Source/code/crane_control.py",
+      "sha256": "3fe352b88e4249f09a033f17f1b33d1c491c63ad89b0d460597f2485f18b384a",
+      "bytes": 25931
+    },
+    {
+      "kind": "source",
+      "source_file": "code/gimbal_control.py",
+      "path": "Content/Assets/Source/code/gimbal_control.py",
+      "sha256": "66975d8f356f2eea67d29d539d716a2135db7bfb7313f99a90f3a5e7f7aae1bc",
+      "bytes": 32317
+    },
+    {
+      "kind": "source",
+      "source_file": "code/inference_control.py",
+      "path": "Content/Assets/Source/code/inference_control.py",
+      "sha256": "97193885e9a88ebcba41273f10e0ee9d62b82b28451ec114e13344c3d61202e0",
+      "bytes": 78364
+    },
+    {
+      "kind": "source",
+      "source_file": "code/inference_serving.py",
+      "path": "Content/Assets/Source/code/inference_serving.py",
+      "sha256": "00767829bb8998692fc90ce6e574cbeb502c2930fe9b308642ea35cf42b2e545",
+      "bytes": 73221
+    },
+    {
+      "kind": "source",
+      "source_file": "code/swing_control.py",
+      "path": "Content/Assets/Source/code/swing_control.py",
+      "sha256": "cdbca9b208cbebdca02cb20766aeb89b49e9289928020a46e3b89bc5ac4b9a4f",
+      "bytes": 58565
+    },
+    {
+      "kind": "source",
+      "source_file": "code/truck_parking.py",
+      "path": "Content/Assets/Source/code/truck_parking.py",
+      "sha256": "ba997940584660f3dde9a2de303cd9b1bb839cd8b741908cd85fc5afc0b5aad9",
+      "bytes": 17799
+    },
+    {
+      "kind": "source",
+      "source_file": "code/wave_energy.py",
+      "path": "Content/Assets/Source/code/wave_energy.py",
+      "sha256": "30ca3c49bfa1a790a63e425a0ef2005886ba79b9e0449a88750642f2b3d3d772",
+      "bytes": 27543
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/00e0a1430b-inference-serving-bo-8a67a6a85379fa2222bc62b552cc9ab2.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/inference-serving-bo-8a67a6a85379fa2222bc62b552cc9ab2.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/inference-serving-bo-8a67a6a85379fa2222bc62b552cc9ab2.svg",
+      "retrieved_at": "2026-10-11T20:49:18.363Z",
+      "content_type": "image/svg+xml",
+      "sha256": "c4dcc551308717b91e6dfeb176f37e65db4d7b82181dda6524842b8a5307af5e",
+      "bytes": 18043
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/03ea093e1e-batch-calibration-145327ff00ed00e93e8ddc0d38dde552.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/batch-calibration-145327ff00ed00e93e8ddc0d38dde552.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/batch-calibration-145327ff00ed00e93e8ddc0d38dde552.svg",
+      "retrieved_at": "2026-10-11T20:49:18.414Z",
+      "content_type": "image/svg+xml",
+      "sha256": "9bd34a7698560ee474884b7e8253f8760bf7ff3cf437d1cbcefb3903f50d37d1",
+      "bytes": 39457
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/112f6a090f-era5_wind-ad3d7065ebb2bd6178fdcfce05d47e8a.json",
+      "url": "https://pierrelucbacon.com/rlbook/build/era5_wind-ad3d7065ebb2bd6178fdcfce05d47e8a.json",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/era5_wind-ad3d7065ebb2bd6178fdcfce05d47e8a.json",
+      "retrieved_at": "2026-10-11T20:49:27.922Z",
+      "content_type": "application/json; charset=utf-8",
+      "sha256": "1029e8eae32bf3e430b67f84cc78b046f8ce0160f80af25289d2338e5cfb1dfb",
+      "bytes": 862
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/113a124045-mpc-129e51f4b8d464111b4547eec7312038.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/mpc-129e51f4b8d464111b4547eec7312038.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/mpc-129e51f4b8d464111b4547eec7312038.svg",
+      "retrieved_at": "2026-10-11T20:49:29.008Z",
+      "content_type": "image/svg+xml",
+      "sha256": "57a1657993e79c2f6dbc3708e705a90428a78c71292b0d8e67abc975186dbfae",
+      "bytes": 29108
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/1230069b4f-conditioning-5f96b6d72f72141ca223a31c2e7e58ef.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/conditioning-5f96b6d72f72141ca223a31c2e7e58ef.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/conditioning-5f96b6d72f72141ca223a31c2e7e58ef.svg",
+      "retrieved_at": "2026-10-11T20:49:22.169Z",
+      "content_type": "image/svg+xml",
+      "sha256": "56619d025b58655b525046daac74411511003ebc19523d8d9eefb1c58ea379ca",
+      "bytes": 57922
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/14d6dbb7b6-66daaa35e85c437a729d68d79ef70225.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/66daaa35e85c437a729d68d79ef70225.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/66daaa35e85c437a729d68d79ef70225.png",
+      "retrieved_at": "2026-10-11T20:51:06.073Z",
+      "content_type": "image/png",
+      "sha256": "6b28891f15d82680dc14fe7e94c42bd4c6e1356a14350c58ce26fa1e244469cc",
+      "bytes": 353174
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/1804839975-polynomial-coordinat-f389dab0e2c32fb109322604167a0464.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/polynomial-coordinat-f389dab0e2c32fb109322604167a0464.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/polynomial-coordinat-f389dab0e2c32fb109322604167a0464.svg",
+      "retrieved_at": "2026-10-11T20:49:24.826Z",
+      "content_type": "image/svg+xml",
+      "sha256": "798da45a5fc678c520334b364cd02c90e1430f77f0bb92f37037af828cfa7977",
+      "bytes": 6551
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/18e509432a-scheduling-8d922de8c9d6a63f10569833037c80f4.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/scheduling-8d922de8c9d6a63f10569833037c80f4.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/scheduling-8d922de8c9d6a63f10569833037c80f4.svg",
+      "retrieved_at": "2026-10-11T20:49:33.330Z",
+      "content_type": "image/svg+xml",
+      "sha256": "1fecc7f4497809226bdd5b97f4d58b48e06d8ff04252d8c26b476796625b76d3",
+      "bytes": 112762
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/1d1bb08900-brownian-passages-c81498b27c139d170c1e1ea876211800.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/brownian-passages-c81498b27c139d170c1e1ea876211800.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/brownian-passages-c81498b27c139d170c1e1ea876211800.svg",
+      "retrieved_at": "2026-10-11T20:49:32.168Z",
+      "content_type": "image/svg+xml",
+      "sha256": "ac15c68adbcf97dfc8725ee5df71433a3d4279273b5a58bbe0905562bd8cdda6",
+      "bytes": 89193
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/1e3da18062-7e2db436150c38a00650f96925aa5581.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/7e2db436150c38a00650f96925aa5581.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/7e2db436150c38a00650f96925aa5581.svg",
+      "retrieved_at": "2026-10-11T20:51:04.119Z",
+      "content_type": "image/svg+xml",
+      "sha256": "a590b05e22690c59d120ad562fa6bd74f9e2e8e5f5a8c88381e1bebc99ad0f22",
+      "bytes": 2369
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/1e514a0659-metrics-fdbff6ae6c960784b2f506106bc44983.json",
+      "url": "https://pierrelucbacon.com/rlbook/build/metrics-fdbff6ae6c960784b2f506106bc44983.json",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/metrics-fdbff6ae6c960784b2f506106bc44983.json",
+      "retrieved_at": "2026-10-11T20:49:22.231Z",
+      "content_type": "application/json; charset=utf-8",
+      "sha256": "e1324d43d6bf29c13104f4bfc27bb258edf6f2359b958e7a5ad7c47f356b22e5",
+      "bytes": 60656
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/24f5481a62-convergence-1d0f11a24f7cd58df38e1873cdaf44b2.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/convergence-1d0f11a24f7cd58df38e1873cdaf44b2.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/convergence-1d0f11a24f7cd58df38e1873cdaf44b2.svg",
+      "retrieved_at": "2026-10-11T20:49:23.218Z",
+      "content_type": "image/svg+xml",
+      "sha256": "d4377ebbb9826f4cdef486266e4546d52c78cdfc3af55c59ad802805881ecdcf",
+      "bytes": 24405
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/2c9cd20e8f-local-time-pieces-e55ebfdc0a175ca73628f177d3116bde.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/local-time-pieces-e55ebfdc0a175ca73628f177d3116bde.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/local-time-pieces-e55ebfdc0a175ca73628f177d3116bde.svg",
+      "retrieved_at": "2026-10-11T20:49:24.727Z",
+      "content_type": "image/svg+xml",
+      "sha256": "45377a77bfc9f81e5ae8ec711c9e54d6c0fb57e776e70661df78a7814ec4fde9",
+      "bytes": 61848
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/2de24230e2-89b6e9eda1b9b68338de380035bf2770.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/89b6e9eda1b9b68338de380035bf2770.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/89b6e9eda1b9b68338de380035bf2770.png",
+      "retrieved_at": "2026-10-11T20:49:30.564Z",
+      "content_type": "image/png",
+      "sha256": "fc8e33f5291015c35fa5f2b19417db7df87d9fe0212377b930de82d95fa18dd7",
+      "bytes": 109807
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/30d892ce95-destination-and-slop-935fcaaafb9071c1ce4769b86804b737.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/destination-and-slop-935fcaaafb9071c1ce4769b86804b737.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/destination-and-slop-935fcaaafb9071c1ce4769b86804b737.svg",
+      "retrieved_at": "2026-10-11T20:49:25.011Z",
+      "content_type": "image/svg+xml",
+      "sha256": "2163f40bc38aa5742760ec9600a39fe02635eaf7acfa2c333261362423af1f97",
+      "bytes": 168577
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/334f4983c3-metrics-adbb88abcc4191fb585d76c00baceac2.json",
+      "url": "https://pierrelucbacon.com/rlbook/build/metrics-adbb88abcc4191fb585d76c00baceac2.json",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/metrics-adbb88abcc4191fb585d76c00baceac2.json",
+      "retrieved_at": "2026-10-11T20:49:23.380Z",
+      "content_type": "application/json; charset=utf-8",
+      "sha256": "dfe6f062118c6363772ce82195c9e287ab2ab0a58840446216c5ae15a3ed6578",
+      "bytes": 402041
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/33bb10f285-thermal_history_deve-59e11603509b8db1a9055ab69dadf1d5.json",
+      "url": "https://pierrelucbacon.com/rlbook/build/thermal_history_deve-59e11603509b8db1a9055ab69dadf1d5.json",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/thermal_history_deve-59e11603509b8db1a9055ab69dadf1d5.json",
+      "retrieved_at": "2026-10-11T20:49:29.165Z",
+      "content_type": "application/json; charset=utf-8",
+      "sha256": "b7d36aee9c338326abe685f34b9c18fd2c00540d1bf5084d3226ca2a635778f5",
+      "bytes": 1037085
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/33cc66ffef-metrics_dp-bb1c6b4ce69fee7e33f6d5cb996bd821.csv",
+      "url": "https://pierrelucbacon.com/rlbook/build/metrics_dp-bb1c6b4ce69fee7e33f6d5cb996bd821.csv",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/metrics_dp-bb1c6b4ce69fee7e33f6d5cb996bd821.csv",
+      "retrieved_at": "2026-10-11T20:49:33.370Z",
+      "content_type": "text/csv; charset=utf-8",
+      "sha256": "2dadc3cae5179fd134bf140d72c4e4246bcc9c426320fb20eb535f85e0545d96",
+      "bytes": 309
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/344ed127e7-bixi-completed-trip--f4946e8542c4c8d21ca2b3e9418dd6b4.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/bixi-completed-trip--f4946e8542c4c8d21ca2b3e9418dd6b4.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/bixi-completed-trip--f4946e8542c4c8d21ca2b3e9418dd6b4.svg",
+      "retrieved_at": "2026-10-11T20:49:18.860Z",
+      "content_type": "image/svg+xml",
+      "sha256": "83918ce7c7435705ab7276a491d7fa731de91a0fdff498fed3292b82d364c9a5",
+      "bytes": 59729
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/35397a894a-56c6de38ac1e8d4f23233f282e9ff7e6.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/56c6de38ac1e8d4f23233f282e9ff7e6.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/56c6de38ac1e8d4f23233f282e9ff7e6.png",
+      "retrieved_at": "2026-10-11T20:50:56.025Z",
+      "content_type": "image/png",
+      "sha256": "c54ee138c61d7406ab554dd068a446996d2fd2465ca220c659fd277214dbf0eb",
+      "bytes": 63637
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/3a1e2d38ee-bixi-model-interface-e79fa6008b4ba75553a5f7f5acf796aa.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/bixi-model-interface-e79fa6008b4ba75553a5f7f5acf796aa.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/bixi-model-interface-e79fa6008b4ba75553a5f7f5acf796aa.svg",
+      "retrieved_at": "2026-10-11T20:49:17.765Z",
+      "content_type": "image/svg+xml",
+      "sha256": "debb8181808b543d45099d593cb73bea42554f3b7da0a56273cbbc7f3379369c",
+      "bytes": 58700
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/3b5a4c4b9f-thermoacoustic-refri-c73132288faaff6741ae7e0674dbece4.json",
+      "url": "https://pierrelucbacon.com/rlbook/build/thermoacoustic-refri-c73132288faaff6741ae7e0674dbece4.json",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/thermoacoustic-refri-c73132288faaff6741ae7e0674dbece4.json",
+      "retrieved_at": "2026-10-11T20:49:23.472Z",
+      "content_type": "application/json; charset=utf-8",
+      "sha256": "564c5c8bb5f7eb9b755554e90705f6a83eb81e1cac2e8440473cd44e773e82a5",
+      "bytes": 105995
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/3bc37ce0de-thermal_history_deve-34646dbb6b1e9d26544807d7714e0f93.json",
+      "url": "https://pierrelucbacon.com/rlbook/build/thermal_history_deve-34646dbb6b1e9d26544807d7714e0f93.json",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/thermal_history_deve-34646dbb6b1e9d26544807d7714e0f93.json",
+      "retrieved_at": "2026-10-11T20:49:29.243Z",
+      "content_type": "application/json; charset=utf-8",
+      "sha256": "29762d322c856a8646f2e6fd8058a41555fe353884af581a3296c7d9f3032da6",
+      "bytes": 232592
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/3cc30d7a35-metrics-a9ac709b7f9e1f3e53ac528c9ad56a8a.json",
+      "url": "https://pierrelucbacon.com/rlbook/build/metrics-a9ac709b7f9e1f3e53ac528c9ad56a8a.json",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/metrics-a9ac709b7f9e1f3e53ac528c9ad56a8a.json",
+      "retrieved_at": "2026-10-11T20:49:27.880Z",
+      "content_type": "application/json; charset=utf-8",
+      "sha256": "eed28810fe618396642a078a8652e3d2d535621101f36813c56e6f3ebc7ed187",
+      "bytes": 21936
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/3e570f1036-metrics-482b1b011eb06fb95c0f839b0539759e.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/metrics-482b1b011eb06fb95c0f839b0539759e.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/metrics-482b1b011eb06fb95c0f839b0539759e.svg",
+      "retrieved_at": "2026-10-11T20:49:27.741Z",
+      "content_type": "image/svg+xml",
+      "sha256": "afff18ec5e4279d25198acec181b0a66836e953149b730986ce10a874ee2dbec",
+      "bytes": 74244
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/3efa432549-plan-3026d655f873b1c3d0b17f11fcbc7cb7.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/plan-3026d655f873b1c3d0b17f11fcbc7cb7.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/plan-3026d655f873b1c3d0b17f11fcbc7cb7.svg",
+      "retrieved_at": "2026-10-11T20:49:22.120Z",
+      "content_type": "image/svg+xml",
+      "sha256": "4696639025f1fa0fa4fddd62fbc559683a6f8aa10bf93c537116750080d94161",
+      "bytes": 35395
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/4157c4b71c-model_audit-6f7f4eb839af7528c8a12fafb73c493f.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/model_audit-6f7f4eb839af7528c8a12fafb73c493f.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/model_audit-6f7f4eb839af7528c8a12fafb73c493f.svg",
+      "retrieved_at": "2026-10-11T20:49:17.346Z",
+      "content_type": "image/svg+xml",
+      "sha256": "b44cae11fe2f3a388c8ecc6b65c8c6c8c59548b4cd8d0ed203c23ad9b088e5db",
+      "bytes": 177373
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/4320a5ebb1-modeling-ac1a5c2302fd2fd70a3b7dc99cbad041.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/modeling-ac1a5c2302fd2fd70a3b7dc99cbad041.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/modeling-ac1a5c2302fd2fd70a3b7dc99cbad041.svg",
+      "retrieved_at": "2026-10-11T20:49:18.809Z",
+      "content_type": "image/svg+xml",
+      "sha256": "d8c396da18f9eee8ba79e26b3d875597f35691dd9de8b5a16671b4a02cd5a536",
+      "bytes": 17513
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/43dd14ca19-brownian-feedback-5fb028d7e8f563a44c636d26801ac2a0.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/brownian-feedback-5fb028d7e8f563a44c636d26801ac2a0.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/brownian-feedback-5fb028d7e8f563a44c636d26801ac2a0.svg",
+      "retrieved_at": "2026-10-11T20:49:32.225Z",
+      "content_type": "image/svg+xml",
+      "sha256": "300c1e55f31b41220dba94108ad49f95bf1e23014eb18934389355bd63d4c717",
+      "bytes": 27117
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/460706c542-article-92c02a4d51251cc17113676ccb4c56f3.pdf",
+      "url": "https://pierrelucbacon.com/rlbook/build/article-92c02a4d51251cc17113676ccb4c56f3.pdf",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/article-92c02a4d51251cc17113676ccb4c56f3.pdf",
+      "retrieved_at": "2026-10-11T20:49:18.756Z",
+      "content_type": "application/pdf",
+      "sha256": "30de5da638fad65c43ac3fa827eed7fcb44a70fddfb60022671fb0079c8a74c2",
+      "bytes": 1904994
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/55cb542c3d-f75d340a8ba11784a34487584446ccb9.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/f75d340a8ba11784a34487584446ccb9.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/f75d340a8ba11784a34487584446ccb9.png",
+      "retrieved_at": "2026-10-11T20:50:59.779Z",
+      "content_type": "image/png",
+      "sha256": "5f6684e311fd4c5d5cb9c0a33a798840555d49f7497738fa6eac374401e45e43",
+      "bytes": 119149
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/58f4703b00-gaussian-mean-3a9b75c0856ab5500ee76e5281476a02.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/gaussian-mean-3a9b75c0856ab5500ee76e5281476a02.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/gaussian-mean-3a9b75c0856ab5500ee76e5281476a02.svg",
+      "retrieved_at": "2026-10-11T20:49:27.544Z",
+      "content_type": "image/svg+xml",
+      "sha256": "66a9281dfc72e028ee9d5a3cbd6ca3232667f1cb572f7df0911d1fa3c47241b4",
+      "bytes": 221658
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/590cc9bf60-swing-reduced-coordi-c9914f636583e2a0c7a3246eb6fccc3c.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/swing-reduced-coordi-c9914f636583e2a0c7a3246eb6fccc3c.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/swing-reduced-coordi-c9914f636583e2a0c7a3246eb6fccc3c.svg",
+      "retrieved_at": "2026-10-11T20:49:17.300Z",
+      "content_type": "image/svg+xml",
+      "sha256": "1ec915a2cade690e5e19a3ec94f9b39db2ac39c9e2dccbb7836be6b24e87ad01",
+      "bytes": 15983
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/5c8a870b52-f63a72df5c8f77c084960c82cd6fe252.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/f63a72df5c8f77c084960c82cd6fe252.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/f63a72df5c8f77c084960c82cd6fe252.png",
+      "retrieved_at": "2026-10-11T20:49:17.158Z",
+      "content_type": "image/png",
+      "sha256": "27237f453f9cb8af27f10f7e4408e7c359f526911b8186ce5d82658eccbdfb37",
+      "bytes": 44370
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/5d155e739a-convergence-c9b79a2171f5a3fbdfa9e614b0acb581.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/convergence-c9b79a2171f5a3fbdfa9e614b0acb581.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/convergence-c9b79a2171f5a3fbdfa9e614b0acb581.svg",
+      "retrieved_at": "2026-10-11T20:49:23.000Z",
+      "content_type": "image/svg+xml",
+      "sha256": "6fa80cac930a3bdbbb460ff1446cc78991924bf744b05b2b789deb08fd743c9b",
+      "bytes": 33864
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/605bed68f9-paths-29cb7f444f8996d8e8ebb1cca8315a7c.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/paths-29cb7f444f8996d8e8ebb1cca8315a7c.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/paths-29cb7f444f8996d8e8ebb1cca8315a7c.svg",
+      "retrieved_at": "2026-10-11T20:49:22.952Z",
+      "content_type": "image/svg+xml",
+      "sha256": "cd422fff1e934b9e19567d92531195dbb30d9e81b652e8094a046be46ecfde8d",
+      "bytes": 30417
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/6139882e48-bdf83cadcc7fee7d7388bc2e0d5adcd9.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/bdf83cadcc7fee7d7388bc2e0d5adcd9.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/bdf83cadcc7fee7d7388bc2e0d5adcd9.png",
+      "retrieved_at": "2026-10-11T20:51:06.321Z",
+      "content_type": "image/png",
+      "sha256": "fda5a83c1fac4c67ecf0eaaaa1c275a93469990783235c2b772c78f0239f6a01",
+      "bytes": 804598
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/6286d4142d-41fbe6046609cd456f9f838a5cf8f3b1.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/41fbe6046609cd456f9f838a5cf8f3b1.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/41fbe6046609cd456f9f838a5cf8f3b1.png",
+      "retrieved_at": "2026-10-11T20:51:04.191Z",
+      "content_type": "image/png",
+      "sha256": "3a04ba49b72b28ff0a89e9431d91a89f775a3c3bd505929a2a846ae4cf4afab2",
+      "bytes": 44228
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/63967ddef0-46219a5e48a9923fad2ed834cf6a40c5.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/46219a5e48a9923fad2ed834cf6a40c5.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/46219a5e48a9923fad2ed834cf6a40c5.png",
+      "retrieved_at": "2026-10-11T20:49:22.006Z",
+      "content_type": "image/png",
+      "sha256": "619f43469533d5bf0f837aaf0613e27d6854425cdb78a9972d6f25fd4052453c",
+      "bytes": 56948
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/64988ac4f2-switching-trajectory-89dea3858e8b42226486dbc84de44406.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/switching-trajectory-89dea3858e8b42226486dbc84de44406.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/switching-trajectory-89dea3858e8b42226486dbc84de44406.svg",
+      "retrieved_at": "2026-10-11T20:49:24.678Z",
+      "content_type": "image/svg+xml",
+      "sha256": "09a63cb169bd65dbd300d3cd495e97cf2d9f2e80683aa2b09bf444dfb4ff406a",
+      "bytes": 51286
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/64f816799e-heat_exchanger-36d42c7ce90c38ee24e241c608f46188.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/heat_exchanger-36d42c7ce90c38ee24e241c608f46188.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/heat_exchanger-36d42c7ce90c38ee24e241c608f46188.svg",
+      "retrieved_at": "2026-10-11T20:51:05.141Z",
+      "content_type": "image/svg+xml",
+      "sha256": "8d24d8ce0221c519302db5de470cf00272f50ffac4e7e6d1e9983afbb29cb6d3",
+      "bytes": 1745
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/662f0188f0-cd4c331bc9637c2c4d4435f57b8f9aed.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/cd4c331bc9637c2c4d4435f57b8f9aed.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/cd4c331bc9637c2c4d4435f57b8f9aed.png",
+      "retrieved_at": "2026-10-11T20:49:31.363Z",
+      "content_type": "image/png",
+      "sha256": "6fe1cf1bb3d7b4032db1157d6f7f6cf0543e37bdaa08824e23c3e45327227367",
+      "bytes": 313466
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/676cde808f-fast-charging-9f9dfea31ffc4a132435cd979c3aa6f1.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/fast-charging-9f9dfea31ffc4a132435cd979c3aa6f1.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/fast-charging-9f9dfea31ffc4a132435cd979c3aa6f1.svg",
+      "retrieved_at": "2026-10-11T20:49:18.988Z",
+      "content_type": "image/svg+xml",
+      "sha256": "ed381b12d9032913ca3c415800a3df72a86e75739692c7c356069edbe191180a",
+      "bytes": 151095
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/692b743c72-open_loop_plan-63d27294d07480cd724dcc861674a5b5.csv",
+      "url": "https://pierrelucbacon.com/rlbook/build/open_loop_plan-63d27294d07480cd724dcc861674a5b5.csv",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/open_loop_plan-63d27294d07480cd724dcc861674a5b5.csv",
+      "retrieved_at": "2026-10-11T20:49:20.120Z",
+      "content_type": "text/csv; charset=utf-8",
+      "sha256": "5f7ce688b78b773ad3a16ad5561df582f28db5cd5fa00c14b1885f3c3cd014d4",
+      "bytes": 18237
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/6a8c04ae56-textbook_results-58b2e6e731d804132ef1bbdc1e5d5029.json",
+      "url": "https://pierrelucbacon.com/rlbook/build/textbook_results-58b2e6e731d804132ef1bbdc1e5d5029.json",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/textbook_results-58b2e6e731d804132ef1bbdc1e5d5029.json",
+      "retrieved_at": "2026-10-11T20:49:19.321Z",
+      "content_type": "application/json; charset=utf-8",
+      "sha256": "0c9f94f9ae55faf88625957fb8a23de9ace52386fd55e3e94f9052150bb9b0f1",
+      "bytes": 272861
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/6aa509a778-collocation-stage-6d0eb8619f5cff77ca9811e98701ab06.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/collocation-stage-6d0eb8619f5cff77ca9811e98701ab06.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/collocation-stage-6d0eb8619f5cff77ca9811e98701ab06.svg",
+      "retrieved_at": "2026-10-11T20:49:24.873Z",
+      "content_type": "image/svg+xml",
+      "sha256": "746707d9f56cafb7a06878742e19d3817586d9dfef47d3e71cb74c306c27af33",
+      "bytes": 47477
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/6b5bb89660-c0c70ec142daea90e804c1c5ecc56cfa.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/c0c70ec142daea90e804c1c5ecc56cfa.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/c0c70ec142daea90e804c1c5ecc56cfa.png",
+      "retrieved_at": "2026-10-11T20:49:30.627Z",
+      "content_type": "image/png",
+      "sha256": "ab48d929af111bde02229c19c2b61e247ffba35a08c2062e6b2145dc24be2178",
+      "bytes": 109621
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/6d189a5bd2-5011498365c5fc41bba261a22e1c7a4d.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/5011498365c5fc41bba261a22e1c7a4d.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/5011498365c5fc41bba261a22e1c7a4d.png",
+      "retrieved_at": "2026-10-11T20:49:28.991Z",
+      "content_type": "image/png",
+      "sha256": "3f98084cb5988c819b7cdb17e34f86782fe649ea9e47eef029bcb4b13394108a",
+      "bytes": 37580
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/6dc2161c99-5c7c590f19c58f102a9293fc016c10c3.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/5c7c590f19c58f102a9293fc016c10c3.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/5c7c590f19c58f102a9293fc016c10c3.png",
+      "retrieved_at": "2026-10-11T20:51:05.956Z",
+      "content_type": "image/png",
+      "sha256": "65b49fc5fc068257d4f295c208c0444cd8d3c18a8d519c499703428f8b6ebe57",
+      "bytes": 190865
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/6ef6ff6ef9-1a4f5465d97e8e6583322a43f5026935.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/1a4f5465d97e8e6583322a43f5026935.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/1a4f5465d97e8e6583322a43f5026935.png",
+      "retrieved_at": "2026-10-11T20:50:56.086Z",
+      "content_type": "image/png",
+      "sha256": "160bb19f6a944c50811f1196dc1d4ad6bab8c75e639e1c348629d2e5222a84fb",
+      "bytes": 72932
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/72bf80041f-partial-observabilit-b3a06859601bdde1e579a4d1b7bbc3bf.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/partial-observabilit-b3a06859601bdde1e579a4d1b7bbc3bf.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/partial-observabilit-b3a06859601bdde1e579a4d1b7bbc3bf.svg",
+      "retrieved_at": "2026-10-11T20:49:17.895Z",
+      "content_type": "image/svg+xml",
+      "sha256": "890769311ae760d1ffde57e31a00e01cbbde8e3ff6b09af9c914ee94ac8849c1",
+      "bytes": 79117
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/72d918f6b9-open-loop-5d7784b7c585022685475482183c23a4.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/open-loop-5d7784b7c585022685475482183c23a4.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/open-loop-5d7784b7c585022685475482183c23a4.svg",
+      "retrieved_at": "2026-10-11T20:49:20.212Z",
+      "content_type": "image/svg+xml",
+      "sha256": "025de5b4087000520c1055d0f145ccf8017f6120e921870da239a6287cc5603e",
+      "bytes": 21232
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/7e36c1ed0b-open-loop-vs-feedbac-9ab83bb9f992dbbc9e4765b57bdc07a2.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/open-loop-vs-feedbac-9ab83bb9f992dbbc9e4765b57bdc07a2.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/open-loop-vs-feedbac-9ab83bb9f992dbbc9e4765b57bdc07a2.svg",
+      "retrieved_at": "2026-10-11T20:49:17.254Z",
+      "content_type": "image/svg+xml",
+      "sha256": "73e64b302b4d9f0220f8b1359633ea8200e336ae168d6ccf3a13389fcf5facff",
+      "bytes": 42284
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/7e62ae3b3e-metrics_fqi-05eea8b33b5a05af09576768f08f3a43.csv",
+      "url": "https://pierrelucbacon.com/rlbook/build/metrics_fqi-05eea8b33b5a05af09576768f08f3a43.csv",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/metrics_fqi-05eea8b33b5a05af09576768f08f3a43.csv",
+      "retrieved_at": "2026-10-11T20:50:59.662Z",
+      "content_type": "text/csv; charset=utf-8",
+      "sha256": "d2186eaf5dc6052403923637a71d6b05a10ed11c7f3b8db9f3b3e0bc2d5bc691",
+      "bytes": 544
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/7e8d549f41-df675e04c6ca5ea94457ccb6fd4e6be7.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/df675e04c6ca5ea94457ccb6fd4e6be7.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/df675e04c6ca5ea94457ccb6fd4e6be7.png",
+      "retrieved_at": "2026-10-11T20:49:21.905Z",
+      "content_type": "image/png",
+      "sha256": "d576a8209a9527212723e33be45a2e40fb9f9979669a2dbcd25b734e651142c7",
+      "bytes": 56596
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/8010c3a4da-nuclear_reactor-f81fb8dc98e83139dba2b3333a3a71ef.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/nuclear_reactor-f81fb8dc98e83139dba2b3333a3a71ef.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/nuclear_reactor-f81fb8dc98e83139dba2b3333a3a71ef.svg",
+      "retrieved_at": "2026-10-11T20:51:05.188Z",
+      "content_type": "image/svg+xml",
+      "sha256": "a10162bfba42ddfb64e9e04e16845679ba39daeadd78c1f46c8ea8bf1bd4a9a1",
+      "bytes": 3239
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/8182f12adf-thermal-phase-valida-2555822b59479d6cb02c1d6de79f3220.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/thermal-phase-valida-2555822b59479d6cb02c1d6de79f3220.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/thermal-phase-valida-2555822b59479d6cb02c1d6de79f3220.svg",
+      "retrieved_at": "2026-10-11T20:49:29.081Z",
+      "content_type": "image/svg+xml",
+      "sha256": "c0afc7f7e4863f2a786ed96804e813e27c808f038de2ce37310672ff999562ce",
+      "bytes": 154669
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/88e46b5dd8-linear-control-area-496e048af626d6485c06869c8dea696d.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/linear-control-area-496e048af626d6485c06869c8dea696d.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/linear-control-area-496e048af626d6485c06869c8dea696d.svg",
+      "retrieved_at": "2026-10-11T20:49:24.631Z",
+      "content_type": "image/svg+xml",
+      "sha256": "d6c0c7cb48c2de5199bc53ec154410e5ed55cc6057215442025ce655ef2b44ea",
+      "bytes": 2800
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/8977e86062-brownian-outcomes-36e9927c18241e9a7a6510a02f50e5cf.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/brownian-outcomes-36e9927c18241e9a7a6510a02f50e5cf.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/brownian-outcomes-36e9927c18241e9a7a6510a02f50e5cf.svg",
+      "retrieved_at": "2026-10-11T20:49:32.313Z",
+      "content_type": "image/svg+xml",
+      "sha256": "a9a3213213edde9d63b41a4db971f4774a209bd619ec8ac46015e38c088c24c4",
+      "bytes": 27136
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/8dd1ca2b39-19c964abde0e0222e8fd718c219bc4e4.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/19c964abde0e0222e8fd718c219bc4e4.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/19c964abde0e0222e8fd718c219bc4e4.png",
+      "retrieved_at": "2026-10-11T20:51:04.292Z",
+      "content_type": "image/png",
+      "sha256": "b04c33a5b05b6281070c552344f96d7eed6dcc79079be2029087aa942c3375b9",
+      "bytes": 30506
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/8e777f41a3-results-dc2f160e2689c1b7bf700c1d78e5952b.json",
+      "url": "https://pierrelucbacon.com/rlbook/build/results-dc2f160e2689c1b7bf700c1d78e5952b.json",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/results-dc2f160e2689c1b7bf700c1d78e5952b.json",
+      "retrieved_at": "2026-10-11T20:49:32.360Z",
+      "content_type": "application/json; charset=utf-8",
+      "sha256": "a247c2915e7360cc9af2ef75965402bd23efc7a1d59342316fc886615b89b4a5",
+      "bytes": 17009
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/940e8d105f-swing_ppo_learning-3e38e82dceefe29d4c587137e25c8c6d.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/swing_ppo_learning-3e38e82dceefe29d4c587137e25c8c6d.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/swing_ppo_learning-3e38e82dceefe29d4c587137e25c8c6d.png",
+      "retrieved_at": "2026-10-11T20:51:02.801Z",
+      "content_type": "image/png",
+      "sha256": "68b52b2781d37091c8d056fe1864ba0c673070bb80c219aa749579c514cd1203",
+      "bytes": 65096
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/9b7ef391e5-iterations-afd50fc23f539c69a270b30b95226d04.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/iterations-afd50fc23f539c69a270b30b95226d04.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/iterations-afd50fc23f539c69a270b30b95226d04.svg",
+      "retrieved_at": "2026-10-11T20:49:22.076Z",
+      "content_type": "image/svg+xml",
+      "sha256": "f3f137bbb0ad45277125e8d08ee890115f12d004df20b28f02865f438334ae2c",
+      "bytes": 34155
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/9ca7a51551-brownian-samples-d1b1d2f1b28c3be7c86331263cae5b1b.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/brownian-samples-d1b1d2f1b28c3be7c86331263cae5b1b.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/brownian-samples-d1b1d2f1b28c3be7c86331263cae5b1b.svg",
+      "retrieved_at": "2026-10-11T20:49:32.264Z",
+      "content_type": "image/svg+xml",
+      "sha256": "a3ac23377c0d83d47c671cd3ec4e4727adc0c53ff93ef0f83588fa4d6dcb0eaa",
+      "bytes": 83391
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/9e4fb2a81f-iterations-a3e436c5a3bf6579cc568516add60208.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/iterations-a3e436c5a3bf6579cc568516add60208.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/iterations-a3e436c5a3bf6579cc568516add60208.svg",
+      "retrieved_at": "2026-10-11T20:49:22.909Z",
+      "content_type": "image/svg+xml",
+      "sha256": "c508720863360c5e2dd280e5868bdd339a7d85b40d5f932c2b8b1d41adf4af8d",
+      "bytes": 27038
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/a62491ae41-exponential-weights-13d3e3ef13ffb778ff86d56acb381443.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/exponential-weights-13d3e3ef13ffb778ff86d56acb381443.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/exponential-weights-13d3e3ef13ffb778ff86d56acb381443.svg",
+      "retrieved_at": "2026-10-11T20:49:27.488Z",
+      "content_type": "image/svg+xml",
+      "sha256": "58384fbbb6419aef80499b223c6c31747ef2e2fce1f78b28d74f34b3dbd66d98",
+      "bytes": 121030
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/afe82a045c-fqi-31fc97b2b6d0bde31db46aecdbc22e10.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/fqi-31fc97b2b6d0bde31db46aecdbc22e10.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/fqi-31fc97b2b6d0bde31db46aecdbc22e10.svg",
+      "retrieved_at": "2026-10-11T20:50:59.618Z",
+      "content_type": "image/svg+xml",
+      "sha256": "f829884e752040bad11ab8805bdec69ba1f7d2f89f17ab6eca960b46ece62742",
+      "bytes": 152534
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/b03487b571-manifest-221e59e77988c50944d1418773dc9a9d.json",
+      "url": "https://pierrelucbacon.com/rlbook/build/manifest-221e59e77988c50944d1418773dc9a9d.json",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/manifest-221e59e77988c50944d1418773dc9a9d.json",
+      "retrieved_at": "2026-10-11T20:49:19.447Z",
+      "content_type": "application/json; charset=utf-8",
+      "sha256": "add4ca1eeb5729fc23cab4a1b093f67e059047ba56a8eaed07f3be550ab69f58",
+      "bytes": 4838
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/b3868abc93-wind_uncertainty-da717caa7b0680022d262b6efbf67184.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/wind_uncertainty-da717caa7b0680022d262b6efbf67184.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/wind_uncertainty-da717caa7b0680022d262b6efbf67184.svg",
+      "retrieved_at": "2026-10-11T20:49:27.803Z",
+      "content_type": "image/svg+xml",
+      "sha256": "c84f5fc75c404999a108535341d2e334f024296e1764647bbeebd163452813d4",
+      "bytes": 59244
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/b4156b1f00-piecewise-trajectory-b7459847145aea6dbb86aeb978a11dfe.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/piecewise-trajectory-b7459847145aea6dbb86aeb978a11dfe.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/piecewise-trajectory-b7459847145aea6dbb86aeb978a11dfe.svg",
+      "retrieved_at": "2026-10-11T20:49:25.210Z",
+      "content_type": "image/svg+xml",
+      "sha256": "f460ea209b692cbcf80b941dfb44582bbe87ceeefde1ff7d1477053abe221d3d",
+      "bytes": 61994
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/b895558bb4-bellman-contraction--fbeb5146f60e3f02f63e5419f7d7b2cd.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/bellman-contraction--fbeb5146f60e3f02f63e5419f7d7b2cd.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/bellman-contraction--fbeb5146f60e3f02f63e5419f7d7b2cd.png",
+      "retrieved_at": "2026-10-11T20:49:33.275Z",
+      "content_type": "image/png",
+      "sha256": "2d9fd1177c7002aa66d2ca1305b1eb425f683a8afabd6209378156a32103f388",
+      "bytes": 62956
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/ba480c84bc-446e7f56b3574a25f01e43008dd326aa.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/446e7f56b3574a25f01e43008dd326aa.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/446e7f56b3574a25f01e43008dd326aa.png",
+      "retrieved_at": "2026-10-11T20:51:04.339Z",
+      "content_type": "image/png",
+      "sha256": "03c865d83f8e68ee55797a7a2366a42fd9ca08576b32b851c7613b0293ab899c",
+      "bytes": 52361
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/bbaa7e1389-9fc519cdbdb508834e70546b83367eef.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/9fc519cdbdb508834e70546b83367eef.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/9fc519cdbdb508834e70546b83367eef.png",
+      "retrieved_at": "2026-10-11T20:49:30.027Z",
+      "content_type": "image/png",
+      "sha256": "5b766e32b70a09f36b71ea0152186b347c2f0b4c008295ea13de425ebcd53be8",
+      "bytes": 159423
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/bd6c9974dc-metrics_mpc-cd2def751ea0add08f4cce29d3ce2f58.csv",
+      "url": "https://pierrelucbacon.com/rlbook/build/metrics_mpc-cd2def751ea0add08f4cce29d3ce2f58.csv",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/metrics_mpc-cd2def751ea0add08f4cce29d3ce2f58.csv",
+      "retrieved_at": "2026-10-11T20:49:29.058Z",
+      "content_type": "text/csv; charset=utf-8",
+      "sha256": "a52fce495c7c8256273ab0675b4455bc906e51f50e653c0dd9a4d73b2bc3d0fd",
+      "bytes": 2159
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/be3eb964b8-l4_thermal_phase_tel-00cf4e0e7e21e1ea226f4204f7bb840b.csv",
+      "url": "https://pierrelucbacon.com/rlbook/build/l4_thermal_phase_tel-00cf4e0e7e21e1ea226f4204f7bb840b.csv",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/l4_thermal_phase_tel-00cf4e0e7e21e1ea226f4204f7bb840b.csv",
+      "retrieved_at": "2026-10-11T20:49:29.616Z",
+      "content_type": "text/csv; charset=utf-8",
+      "sha256": "cb896ac8d06dc1ed8b0e4abea826a802b3cb9df9a35bce602c61284030be09f5",
+      "bytes": 6437766
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/c151822aaf-future-and-motion-c18ca98ca05e0db8a19b619cd90881e2.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/future-and-motion-c18ca98ca05e0db8a19b619cd90881e2.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/future-and-motion-c18ca98ca05e0db8a19b619cd90881e2.svg",
+      "retrieved_at": "2026-10-11T20:49:23.066Z",
+      "content_type": "image/svg+xml",
+      "sha256": "1c149ac76495ac5bcc48de68765a9d2c8003337383da80dfbe68fd12eaa98db9",
+      "bytes": 37985
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/c4d75e4337-evaluation-and-diffe-b95b62c5c9438ac3fccc2408ad9add9e.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/evaluation-and-diffe-b95b62c5c9438ac3fccc2408ad9add9e.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/evaluation-and-diffe-b95b62c5c9438ac3fccc2408ad9add9e.svg",
+      "retrieved_at": "2026-10-11T20:49:25.343Z",
+      "content_type": "image/svg+xml",
+      "sha256": "44f6ba21f1a48e2a233bce62ce894e4bf2e0461d127ef6a84536af001f8a22a3",
+      "bytes": 217378
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/c6724a4a05-thermal_phase_fit_re-0673adbdf7c82e9c801adf478225e43b.json",
+      "url": "https://pierrelucbacon.com/rlbook/build/thermal_phase_fit_re-0673adbdf7c82e9c801adf478225e43b.json",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/thermal_phase_fit_re-0673adbdf7c82e9c801adf478225e43b.json",
+      "retrieved_at": "2026-10-11T20:49:29.374Z",
+      "content_type": "application/json; charset=utf-8",
+      "sha256": "890809a2c764711b30d0e74b5db9c060abbe9e8d0a0cc2fdee0e4170407eec8f",
+      "bytes": 43362
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/c7811514e2-thermal_phase_valida-5fc4e699407deaceac0021b420c6fdd7.csv",
+      "url": "https://pierrelucbacon.com/rlbook/build/thermal_phase_valida-5fc4e699407deaceac0021b420c6fdd7.csv",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/thermal_phase_valida-5fc4e699407deaceac0021b420c6fdd7.csv",
+      "retrieved_at": "2026-10-11T20:49:29.318Z",
+      "content_type": "text/csv; charset=utf-8",
+      "sha256": "19533dccc9c30e6f153ebcbc4ceadc51c9eccdd5a93ad4094ea75d57478e9679",
+      "bytes": 18140
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/c7c5a4c913-stage-and-endpoint-058f449827efc25af4765659514c2a09.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/stage-and-endpoint-058f449827efc25af4765659514c2a09.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/stage-and-endpoint-058f449827efc25af4765659514c2a09.svg",
+      "retrieved_at": "2026-10-11T20:49:24.927Z",
+      "content_type": "image/svg+xml",
+      "sha256": "7196389fd234acfacd97044ea1ae079ae06335b4fdad251a245d9ec197c4787c",
+      "bytes": 129537
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/c841edc672-flight_comparison-eaf8d9e5be5439143cb18c4c365a0b4f.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/flight_comparison-eaf8d9e5be5439143cb18c4c365a0b4f.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/flight_comparison-eaf8d9e5be5439143cb18c4c365a0b4f.svg",
+      "retrieved_at": "2026-10-11T20:49:27.617Z",
+      "content_type": "image/svg+xml",
+      "sha256": "1f321102a271134f35ff2693d44fb2b1416c04264554e445d2efd39370c9f959",
+      "bytes": 113293
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/d2eacf12b6-sampling-and-integra-d442468b357267f89def2053c2b8f63a.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/sampling-and-integra-d442468b357267f89def2053c2b8f63a.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/sampling-and-integra-d442468b357267f89def2053c2b8f63a.svg",
+      "retrieved_at": "2026-10-11T20:49:17.211Z",
+      "content_type": "image/svg+xml",
+      "sha256": "5965aed113e438cc0bab29aa0062d13dd057d1ea88c750c613020401d4dde929",
+      "bytes": 53576
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/d50da40a2e-metrics-e6ba7fc06c666ace72cc6d7eaf029a7c.json",
+      "url": "https://pierrelucbacon.com/rlbook/build/metrics-e6ba7fc06c666ace72cc6d7eaf029a7c.json",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/metrics-e6ba7fc06c666ace72cc6d7eaf029a7c.json",
+      "retrieved_at": "2026-10-11T20:49:23.270Z",
+      "content_type": "application/json; charset=utf-8",
+      "sha256": "52418dec2d44f1df00690df8f405e6f13713bc3a532437e760e7f23dfc2ff576",
+      "bytes": 4164
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/d577972762-bixi-feedback-eviden-3099b851efe7ae86d9d424515f0a9441.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/bixi-feedback-eviden-3099b851efe7ae86d9d424515f0a9441.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/bixi-feedback-eviden-3099b851efe7ae86d9d424515f0a9441.svg",
+      "retrieved_at": "2026-10-11T20:49:17.828Z",
+      "content_type": "image/svg+xml",
+      "sha256": "8b920874687ab5ee069ed9b0a687d09173c2b55ca9f03abfd41c045dc5c778a2",
+      "bytes": 104443
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/d7be79cc49-c4d898fce3db0caa989257f74a89ab46.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/c4d898fce3db0caa989257f74a89ab46.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/c4d898fce3db0caa989257f74a89ab46.png",
+      "retrieved_at": "2026-10-11T20:51:06.163Z",
+      "content_type": "image/png",
+      "sha256": "8910f79568ddfc1c84cb5d938cb0527cae080d266cb8d4cb11f2f60637181e07",
+      "bytes": 902499
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/d9ba72c8ff-variants-8420d7aaef9a55800a6235c76d7cde80.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/variants-8420d7aaef9a55800a6235c76d7cde80.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/variants-8420d7aaef9a55800a6235c76d7cde80.svg",
+      "retrieved_at": "2026-10-11T20:49:23.173Z",
+      "content_type": "image/svg+xml",
+      "sha256": "c173096ae915387dec08a1b0466ce20af3154f6b3f31fd0882e8b5d4d3528911",
+      "bytes": 45938
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/dbf0f7fbbd-98f2386e51f175de3a4ea7859176ca95.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/98f2386e51f175de3a4ea7859176ca95.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/98f2386e51f175de3a4ea7859176ca95.png",
+      "retrieved_at": "2026-10-11T20:49:24.781Z",
+      "content_type": "image/png",
+      "sha256": "ab27b07de327692f515d1eb847dbbb0d3c92625c41c70badddbd55d6baa2429b",
+      "bytes": 24083
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/df3c57fdb3-differential-drag-9a14c08068aa92bd1adb5436ba59bb7e.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/differential-drag-9a14c08068aa92bd1adb5436ba59bb7e.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/differential-drag-9a14c08068aa92bd1adb5436ba59bb7e.svg",
+      "retrieved_at": "2026-10-11T20:49:20.075Z",
+      "content_type": "image/svg+xml",
+      "sha256": "21702909fb44d13ce4260a4d167068d20f6307c827dc1d7aa47f0410ba4d8251",
+      "bytes": 243454
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/e170e75b0b-3776ea807959857403b937cac7bcd83d.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/3776ea807959857403b937cac7bcd83d.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/3776ea807959857403b937cac7bcd83d.png",
+      "retrieved_at": "2026-10-11T20:51:04.242Z",
+      "content_type": "image/png",
+      "sha256": "f31f012ea3bc8c36c8e064dffbca66458b3c6af00b896541455e35b860766e40",
+      "bytes": 24041
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/e882e10ad3-batch_calibration-3e069fe028408abf56c3ab3125112d45.csv",
+      "url": "https://pierrelucbacon.com/rlbook/build/batch_calibration-3e069fe028408abf56c3ab3125112d45.csv",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/batch_calibration-3e069fe028408abf56c3ab3125112d45.csv",
+      "retrieved_at": "2026-10-11T20:49:18.460Z",
+      "content_type": "text/csv; charset=utf-8",
+      "sha256": "1cf73e0fe313f07eae2bf9f441314369469c47b090e23c7355169e2315a468b0",
+      "bytes": 12637
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/ea067f1326-diagnostic_pulse-226054abb1960e73dafc94f9472e0597.csv",
+      "url": "https://pierrelucbacon.com/rlbook/build/diagnostic_pulse-226054abb1960e73dafc94f9472e0597.csv",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/diagnostic_pulse-226054abb1960e73dafc94f9472e0597.csv",
+      "retrieved_at": "2026-10-11T20:49:19.186Z",
+      "content_type": "text/csv; charset=utf-8",
+      "sha256": "a25d9edd2f29c14e399039909aaf080a39c7383a54402e798d0808c4e244be40",
+      "bytes": 8676
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/edd5ec1e7b-363294b6bc04a9b28ce467c7e99f16ba.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/363294b6bc04a9b28ce467c7e99f16ba.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/363294b6bc04a9b28ce467c7e99f16ba.png",
+      "retrieved_at": "2026-10-11T20:50:59.722Z",
+      "content_type": "image/png",
+      "sha256": "710c9e3222a0ea0aaee5cef354caa113d59fd416f2472ad64092c690e3a0ee8f",
+      "bytes": 179368
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/f5eeb5ba62-94a02ff0f3af8948afc0fbcc48afa70c.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/94a02ff0f3af8948afc0fbcc48afa70c.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/94a02ff0f3af8948afc0fbcc48afa70c.png",
+      "retrieved_at": "2026-10-11T20:49:28.970Z",
+      "content_type": "image/png",
+      "sha256": "7948888466d66212c235513e833c2da4875cea3fafef258a3fa09585314c8eab",
+      "bytes": 180992
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/f93ca39bd6-nlp-quantities-a18f7733ee47409b241a6f2ca6e90eff.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/nlp-quantities-a18f7733ee47409b241a6f2ca6e90eff.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/nlp-quantities-a18f7733ee47409b241a6f2ca6e90eff.svg",
+      "retrieved_at": "2026-10-11T20:49:25.283Z",
+      "content_type": "image/svg+xml",
+      "sha256": "c927e38f1de0aa5b004886df5d640eb86aa75289f1b550afb52701056b31dc0a",
+      "bytes": 221742
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/fdb21c6b3d-metrics_open_loop-bc8787d3ae658e9a66680fa963ec6594.csv",
+      "url": "https://pierrelucbacon.com/rlbook/build/metrics_open_loop-bc8787d3ae658e9a66680fa963ec6594.csv",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/metrics_open_loop-bc8787d3ae658e9a66680fa963ec6594.csv",
+      "retrieved_at": "2026-10-11T20:49:20.304Z",
+      "content_type": "text/csv; charset=utf-8",
+      "sha256": "9cf7cfb51a93dc901bb77928618596d8f5c594fa8b1d1216146a9eb6268e45dc",
+      "bytes": 1653
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/fed4c7ad52-8199d6bbb0e59c6490e117fcd1ede2f3.png",
+      "url": "https://pierrelucbacon.com/rlbook/build/8199d6bbb0e59c6490e117fcd1ede2f3.png",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/8199d6bbb0e59c6490e117fcd1ede2f3.png",
+      "retrieved_at": "2026-10-11T20:49:25.395Z",
+      "content_type": "image/png",
+      "sha256": "5b84d612eedeca57622e28da60f25c776018a65bd6ae51b8daeddc1fe395456f",
+      "bytes": 73424
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/ff30e8c5c1-pulldown-9186f5b8900724a36a7537874cda5746.svg",
+      "url": "https://pierrelucbacon.com/rlbook/build/pulldown-9186f5b8900724a36a7537874cda5746.svg",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/pulldown-9186f5b8900724a36a7537874cda5746.svg",
+      "retrieved_at": "2026-10-11T20:49:23.117Z",
+      "content_type": "image/svg+xml",
+      "sha256": "10131bcb838110ac730dafa8b39fbde2a06fcda452ff6f4352b302f46a1faf2d",
+      "bytes": 27135
+    },
+    {
+      "kind": "website",
+      "path": "Content/Assets/Website/fffc58d678-metrics-52526989adf113cc41db588c9d2fd193.csv",
+      "url": "https://pierrelucbacon.com/rlbook/build/metrics-52526989adf113cc41db588c9d2fd193.csv",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/metrics-52526989adf113cc41db588c9d2fd193.csv",
+      "retrieved_at": "2026-10-11T20:49:20.163Z",
+      "content_type": "text/csv; charset=utf-8",
+      "sha256": "455d56deae1810425e9f4bdae3561ef660be919bac88a1ce7286453dc44b2c2e",
+      "bytes": 10031
+    },
+    {
+      "kind": "website",
+      "path": "Resources/rlbook.pdf",
+      "url": "https://pierrelucbacon.com/rlbook/build/book-3663ff2ec2adc1ebe9e0b44305d31ab5.pdf",
+      "final_url": "https://pierrelucbacon.com/rlbook/build/book-3663ff2ec2adc1ebe9e0b44305d31ab5.pdf",
+      "retrieved_at": "2026-10-11T20:51:08.158Z",
+      "content_type": "application/pdf",
+      "sha256": "b08d49ea46c1618e29e2462721651ec77cdcb6cc65aa30fb5b2f5259bee578a3",
+      "bytes": 6890347
+    }
+  ],
+  "notebooks": [
+    "Resources/Notebooks/01_finite_mdp_policy_evaluation.ipynb",
+    "Resources/Notebooks/02_value_and_policy_iteration.ipynb",
+    "Resources/Notebooks/03_monte_carlo_estimators.ipynb",
+    "Resources/Notebooks/04_ode_discretization.ipynb",
+    "Resources/Notebooks/05_finite_horizon_lqr.ipynb",
+    "Resources/Notebooks/06_scipy_trajectory_optimization.ipynb",
+    "Resources/Notebooks/07_lagrange_operators.ipynb",
+    "Resources/Notebooks/08_collocation_from_nodes.ipynb"
+  ],
+  "generated_files": [
+    {
+      "path": "Content/01-intro.md",
+      "sha256": "5c274c077bcf6b5d6a522690bb1e98c09fbce5d8e45084fe71ba5c530345a915",
+      "bytes": 16524
+    },
+    {
+      "path": "Content/02-syllabus.md",
+      "sha256": "8b585a0f600b9a2e4f07d304d7be3f4d195e7a57f799d57c026cdfc11b1e7053",
+      "bytes": 30743
+    },
+    {
+      "path": "Content/03-modeling-controlled-systems.md",
+      "sha256": "6cef63086bfdd4e5d6b0ea8081a41da8f354d5d45cdf52b9285c0f3cb9dd88eb",
+      "bytes": 36193
+    },
+    {
+      "path": "Content/04-stochastic-dynamics-observation.md",
+      "sha256": "78a0e1641cc045b193415c57b547e371be6fa22e6fdaae86e745833032e3eba6",
+      "bytes": 34918
+    },
+    {
+      "path": "Content/05-model-interfaces.md",
+      "sha256": "99034e1a3d53cf3fed23e889b410aa36a02dba5dbb20d3acf87fde31a88846aa",
+      "bytes": 42854
+    },
+    {
+      "path": "Content/06-discrete-time-optimal-control.md",
+      "sha256": "e6f701a2be1ddad1eb9b01e1903cc16fc0a752925c184eb14c71ab46623240f0",
+      "bytes": 58333
+    },
+    {
+      "path": "Content/07-discrete-time-pmp.md",
+      "sha256": "85ce4a7b97a8ee031660078a68b32a360da0a7d5c5fe3693709d181f31ba66ea",
+      "bytes": 16573
+    },
+    {
+      "path": "Content/08-numerical-trajectory-optimization.md",
+      "sha256": "a6d753de8a3bff000f6a3975d9b69ece654249d1c07ad59051e40e3f489600b7",
+      "bytes": 77117
+    },
+    {
+      "path": "Content/09-iterative-trajectory-optimization.md",
+      "sha256": "3daf6a45b0aecbd386172c37936afb49134b29c5569c7a5db0d6ac64424c1270",
+      "bytes": 49071
+    },
+    {
+      "path": "Content/10-continuous-time-collocation.md",
+      "sha256": "667457b320647c41feee9a255e9a2d048d8807025d6ec7eb6ea8fb10d925a836",
+      "bytes": 145063
+    },
+    {
+      "path": "Content/11-model-predictive-path-integral-control.md",
+      "sha256": "c50f18886a48c938e28ecff082765c8e0861cde4a2bcb6407cf28cc880ed1c75",
+      "bytes": 63301
+    },
+    {
+      "path": "Content/12-receding-horizon-control.md",
+      "sha256": "d4b3451ad3560fc874fad755aa33eb2fe128921c9f3883851382138cac520a72",
+      "bytes": 22103
+    },
+    {
+      "path": "Content/13-mpc-variants-reliability.md",
+      "sha256": "a6e89d91315f2422281fb08c2cfdecb1db6c2e15a63b340a590633ccd5224255",
+      "bytes": 49243
+    },
+    {
+      "path": "Content/14-parametric-controllers.md",
+      "sha256": "ff137eae781b1e88792b2b50e0a75d0faebf85bbb35ab5d0ed71f39b738290e2",
+      "bytes": 25044
+    },
+    {
+      "path": "Content/15-finite-horizon-dp.md",
+      "sha256": "9ce5f92b9e58cee5148cf4620c63066230f2006dd4aa44508a0eb467b3ab4957",
+      "bytes": 40877
+    },
+    {
+      "path": "Content/16-stochastic-dp.md",
+      "sha256": "9705de0b955e1c36cbe056fedf6b216a51ab315ac4c40a223ed057878dd11fe2",
+      "bytes": 34898
+    },
+    {
+      "path": "Content/17-path-integral-stochastic-control.md",
+      "sha256": "965a5b904de92cfbf45946c62048ec2e60d10a89d78712d1336c8eb0bee0426f",
+      "bytes": 43338
+    },
+    {
+      "path": "Content/18-infinite-horizon-mdps.md",
+      "sha256": "f9650d9fcdf05f7be8a5c33f2b6bce8a31cc0f6029ed39618a9507363bb22dbf",
+      "bytes": 65516
+    },
+    {
+      "path": "Content/19-regularized-dp.md",
+      "sha256": "cca2d0f01b475106f6471b0702bf59352bc024dfb8d47439ef562df8d27082ef",
+      "bytes": 50795
+    },
+    {
+      "path": "Content/20-weighted-residual-methods.md",
+      "sha256": "100fb9136e41a2125fd11ea79f2163525538cedca7c43eb6d9bec44270116bba",
+      "bytes": 39575
+    },
+    {
+      "path": "Content/21-approximate-bellman-equations.md",
+      "sha256": "59eb15126d2e6b7ccbc078bb1546bad2f75c756e81fc0eb6e6ba70128854b29b",
+      "bytes": 62863
+    },
+    {
+      "path": "Content/22-monte-carlo-bellman-estimation.md",
+      "sha256": "0698347c7d77c80bf820c747692b274c62993fe037bc8ccea8f328f019672b04",
+      "bytes": 58122
+    },
+    {
+      "path": "Content/23-fitted-q-iteration.md",
+      "sha256": "cc6f0e5ce8cd9a1061769d2ca263d1ff985bf1d78d6cccfae0d61d00eb214f62",
+      "bytes": 80566
+    },
+    {
+      "path": "Content/24-amortized-action-optimization.md",
+      "sha256": "7539bbf9972f8fb4d9ebc0e1d53267d261aa69316e485f32f004ce5ef7eba340",
+      "bytes": 39652
+    },
+    {
+      "path": "Content/25-gradient-estimation.md",
+      "sha256": "a9f118135d7cfc6add4840cdc6ec8bf2b7de36a53f00ab30793b7d7cadf54bd8",
+      "bytes": 18523
+    },
+    {
+      "path": "Content/26-regularized-policy-learning.md",
+      "sha256": "fc6faaadb8e24e834c5be1750d732f5709ce0c82b7ee23a7bc608c7f7d97a0d7",
+      "bytes": 36617
+    },
+    {
+      "path": "Content/27-policy-gradients.md",
+      "sha256": "27e518965d9fc10491e440d2f0888883b160aadba4af117d2384ef3909144841",
+      "bytes": 72993
+    },
+    {
+      "path": "Content/28-collocation-from-nodes.md",
+      "sha256": "68c58f57eb246618ff0e95a25ff26223fab89e42eddd6bcb9daa9236ce87c36f",
+      "bytes": 53602
+    },
+    {
+      "path": "Content/29-appendix-examples.md",
+      "sha256": "702f0a173e3d126bf9223e9e095289771a07a12b0d38912028a5989be61bbef4",
+      "bytes": 9578
+    },
+    {
+      "path": "Content/30-appendix-ivps.md",
+      "sha256": "349cfb447ef834029e9984350a7cd8f3b6f82874f48c78be12a587d6bd9af583",
+      "bytes": 14993
+    },
+    {
+      "path": "Content/31-appendix-nlp.md",
+      "sha256": "fca2e88d96bb9ed03e35020cf4e7ac445acca5d8042c9c43053c342b606a3317",
+      "bytes": 61750
+    },
+    {
+      "path": "Content/Assets/Source/_static/aircraft_mppi/flight_comparison.svg",
+      "sha256": "e6f5094cd2bfe01589d46e6e21a454c9010c22d32df837f076a8152dafc7a0b3",
+      "bytes": 117113
+    },
+    {
+      "path": "Content/Assets/Source/_static/aircraft_mppi/metrics.svg",
+      "sha256": "70e871096695266e0f3a6a1e1f0d8d44c08b407cb28cff6f55cbac438a07aedb",
+      "bytes": 76552
+    },
+    {
+      "path": "Content/Assets/Source/_static/aircraft_mppi/wind_uncertainty.svg",
+      "sha256": "0ebab402c309f4f591c225cc98cbf601ebe5c5be1b04bea0977118da597a9c23",
+      "bytes": 61342
+    },
+    {
+      "path": "Content/Assets/Source/_static/battery/fast-charging.svg",
+      "sha256": "f7594677a8aae51541178fb1be223e947be36e2ee937c6ae1f0893d7bf5526b6",
+      "bytes": 156187
+    },
+    {
+      "path": "Content/Assets/Source/_static/bellman-contraction-fallback.png",
+      "sha256": "2d9fd1177c7002aa66d2ca1305b1eb425f683a8afabd6209378156a32103f388",
+      "bytes": 62956
+    },
+    {
+      "path": "Content/Assets/Source/_static/bixi/bixi-completed-trip-censoring.svg",
+      "sha256": "5201ac07f0f394182540a1b180fe6247bc57019f2e6d2c0a9820079cfa2a6d7c",
+      "bytes": 61799
+    },
+    {
+      "path": "Content/Assets/Source/_static/bixi/bixi-feedback-evidence.svg",
+      "sha256": "47694a8be25a1222e338aab1fedd27d4e141ae3279cdf66489c023ecea5dac86",
+      "bytes": 107875
+    },
+    {
+      "path": "Content/Assets/Source/_static/bixi/bixi-model-interface.svg",
+      "sha256": "0c98b9526a2cc8ebb531c44f58b7910d18188659a12cd5c1415d625bba5358e9",
+      "bytes": 60702
+    },
+    {
+      "path": "Content/Assets/Source/_static/boat_docking/convergence.svg",
+      "sha256": "6a3fc967422f8516aeca03be52a81a96e7fcb290962266f72c2d03d88712372f",
+      "bytes": 34844
+    },
+    {
+      "path": "Content/Assets/Source/_static/boat_docking/future-and-motion.svg",
+      "sha256": "09df7026c8a47a6d5fb9c02862bb87efa41f9307bac9f3ccd18d75166b80a472",
+      "bytes": 39148
+    },
+    {
+      "path": "Content/Assets/Source/_static/boat_docking/iterations.svg",
+      "sha256": "c4977f947481547d80f7dbc113a2dd1ef9ad1d18190e4ac64d973bc257a00752",
+      "bytes": 27790
+    },
+    {
+      "path": "Content/Assets/Source/_static/boat_docking/paths.svg",
+      "sha256": "477b1afe718051e17aa61daf506c9353b989bc1fd04e77f799c3638dab95fe06",
+      "bytes": 31291
+    },
+    {
+      "path": "Content/Assets/Source/_static/brownian_mppi/brownian-feedback.svg",
+      "sha256": "f0f2089f387d6ea97ef3feb7b020142fda21d259bf81aa1969d93498084c40a7",
+      "bytes": 27769
+    },
+    {
+      "path": "Content/Assets/Source/_static/brownian_mppi/brownian-outcomes.svg",
+      "sha256": "be3ae9cde22475f624170cf941b86280be763f9331d955b1a842c3b57911c090",
+      "bytes": 27795
+    },
+    {
+      "path": "Content/Assets/Source/_static/brownian_mppi/brownian-passages.svg",
+      "sha256": "7493f6306a25a86e7afe8743db9a22ea9b4c6327f3da0659ccbd971ad581df9d",
+      "bytes": 92475
+    },
+    {
+      "path": "Content/Assets/Source/_static/brownian_mppi/brownian-samples.svg",
+      "sha256": "1d0c2dbed41f9bd30cfb07c2bf81ae9b8cd122afdf45b434db7dffab9a1c2600",
+      "bytes": 86446
+    },
+    {
+      "path": "Content/Assets/Source/_static/brownian_mppi/exponential-weights.svg",
+      "sha256": "7bcb51e87e40e02449917e8035d196a2f810f6e7b22362408c2ce3ce0da2c52c",
+      "bytes": 121757
+    },
+    {
+      "path": "Content/Assets/Source/_static/brownian_mppi/gaussian-mean.svg",
+      "sha256": "737305ac392dc8930d5df6ba938d4a3763912f048bbe3bf7798d982c8b2d65e7",
+      "bytes": 222752
+    },
+    {
+      "path": "Content/Assets/Source/_static/collocation/collocation-stage.svg",
+      "sha256": "4514c2c279c093a5b8f1b3bd3618753f935478f6854a435991df2e51cd259121",
+      "bytes": 49161
+    },
+    {
+      "path": "Content/Assets/Source/_static/collocation/destination-and-slope-stages.svg",
+      "sha256": "3fbd7442f6c22a3877e74798bc2a27d136434ff70cb8381f42e347d7d2c0a527",
+      "bytes": 169754
+    },
+    {
+      "path": "Content/Assets/Source/_static/collocation/evaluation-and-differentiation.svg",
+      "sha256": "cf648646795afa9a7fdba78f4ac4eb024b15d4acadb93afb6f3a907f0670b821",
+      "bytes": 218974
+    },
+    {
+      "path": "Content/Assets/Source/_static/collocation/linear-control-area.svg",
+      "sha256": "f74efcfa1229e84033d87c953cb0da7aaaffe38dedde986b4274ee63da575c01",
+      "bytes": 2837
+    },
+    {
+      "path": "Content/Assets/Source/_static/collocation/local-time-pieces.svg",
+      "sha256": "a2ab2ed68a4482ce4574c949079de10224f42c064f193aede3a04c987b6f6ed8",
+      "bytes": 63829
+    },
+    {
+      "path": "Content/Assets/Source/_static/collocation/nlp-quantities.svg",
+      "sha256": "a570d02037145a922ab4d848ea746d2f668e47982d1ec2783d6853898b95d882",
+      "bytes": 223534
+    },
+    {
+      "path": "Content/Assets/Source/_static/collocation/piecewise-trajectory.svg",
+      "sha256": "1e5719c9e3b15b3a38b0714ec11b9e833396acc82cff034de66ce231f4229405",
+      "bytes": 63932
+    },
+    {
+      "path": "Content/Assets/Source/_static/collocation/polynomial-coordinate-operators.svg",
+      "sha256": "1a542ebe5c8715fc962f41a68f7e62992cf95f838ffa586b0bc26ccc34cc55c7",
+      "bytes": 6642
+    },
+    {
+      "path": "Content/Assets/Source/_static/collocation/stage-and-endpoint.svg",
+      "sha256": "0ff41676eee447df207583b043a51702b6d295082d017269baaf6fb78ca3345e",
+      "bytes": 130562
+    },
+    {
+      "path": "Content/Assets/Source/_static/collocation/switching-trajectory.svg",
+      "sha256": "cc79c7bbd27b95b5a98250a47fc063b78277a3e1043026f6ea39bb16fd93262a",
+      "bytes": 53059
+    },
+    {
+      "path": "Content/Assets/Source/_static/cubesat/differential-drag.svg",
+      "sha256": "bb76eed3f9ce031101f95826eb6e0f4ab7fbcbb6775f967a9875a202610936b2",
+      "bytes": 251151
+    },
+    {
+      "path": "Content/Assets/Source/_static/gimbal/partial-observability.svg",
+      "sha256": "24784612f058ae36ee493aec792a9ac3b1e98d977eae8beb0c3b16c4eb7cc852",
+      "bytes": 81608
+    },
+    {
+      "path": "Content/Assets/Source/_static/heat_exchanger.svg",
+      "sha256": "13e809d4ced5e9227bebc6a6bc0b6f27767abe937ae1d5bf2ea48b657b110a07",
+      "bytes": 1780
+    },
+    {
+      "path": "Content/Assets/Source/_static/inference_serving/batch-calibration.svg",
+      "sha256": "aae56374e03bc1ee961d245c0abc78d1b6dca4a6dba74f7b71805a6647d19cde",
+      "bytes": 40262
+    },
+    {
+      "path": "Content/Assets/Source/_static/inference_serving/fqi.svg",
+      "sha256": "61673770df8d8a3867c397438233a2c7b1ba6c563c23255aa1c85a5562b70036",
+      "bytes": 155045
+    },
+    {
+      "path": "Content/Assets/Source/_static/inference_serving/modeling.svg",
+      "sha256": "6c5c6d22331d204c13e965807675a18a68bcd80b3d7dcfe5068c1332fc21d129",
+      "bytes": 17952
+    },
+    {
+      "path": "Content/Assets/Source/_static/inference_serving/mpc.svg",
+      "sha256": "80ee1e13f9a32e7857f3e9003634db24534db873416b9db37c9a9f2b5bceb7c3",
+      "bytes": 29921
+    },
+    {
+      "path": "Content/Assets/Source/_static/inference_serving/open-loop.svg",
+      "sha256": "06155cce372a43a9579763c7c204ce01484046a81128967967c562d9a4856c23",
+      "bytes": 21804
+    },
+    {
+      "path": "Content/Assets/Source/_static/inference_serving/scheduling.svg",
+      "sha256": "2f4b00e4d8d309f9f8e81e13e2dfec2d923fd61cff7375f0b78c2fca1e4907f7",
+      "bytes": 114347
+    },
+    {
+      "path": "Content/Assets/Source/_static/inference_serving/thermal-phase-validation.svg",
+      "sha256": "23fad6b26a8aeb06acaf8638b885e18e81c61e891b6bbcc757b30f8e5fa76dc3",
+      "bytes": 159824
+    },
+    {
+      "path": "Content/Assets/Source/_static/inference-serving-boundary.svg",
+      "sha256": "dd1ad81db6f52013f6a1a3db0af93bde4220f7560d245840f1c475bf5b6ff1e1",
+      "bytes": 18404
+    },
+    {
+      "path": "Content/Assets/Source/_static/nuclear_reactor.svg",
+      "sha256": "683d1c4429e6a6f881e5104ecf1c822273957ac41b3f7ffb2774b5c0a46aa77d",
+      "bytes": 3310
+    },
+    {
+      "path": "Content/Assets/Source/_static/open-loop-vs-feedback.svg",
+      "sha256": "dde7e2b0b72dcf392a1f39d43a3fbcb6526be1d41b0af13e35a9c01663962f14",
+      "bytes": 43182
+    },
+    {
+      "path": "Content/Assets/Source/_static/sampling-and-integration.svg",
+      "sha256": "69782b4ac80545940397e2825dc39fd7be07033527717cc87fbb5b2064f693a9",
+      "bytes": 54684
+    },
+    {
+      "path": "Content/Assets/Source/_static/swing_modeling/model_audit.svg",
+      "sha256": "5922fcbab03d56f7f782397d249ab93a8f3ef2fca7440ee5dc5011d085c578a1",
+      "bytes": 183866
+    },
+    {
+      "path": "Content/Assets/Source/_static/swing_ppo/swing_ppo_learning.png",
+      "sha256": "68b52b2781d37091c8d056fe1864ba0c673070bb80c219aa749579c514cd1203",
+      "bytes": 65096
+    },
+    {
+      "path": "Content/Assets/Source/_static/swing-reduced-coordinates.svg",
+      "sha256": "0316a937d9c4d505b8680029377e74106972980228fa62be1211e9bfc87ced1c",
+      "bytes": 16267
+    },
+    {
+      "path": "Content/Assets/Source/_static/thermoacoustic_pulldown/convergence.svg",
+      "sha256": "cd1133782f96e481843e95fec2a4a3cd1d2a1b0d16fed215d6941795767832fe",
+      "bytes": 25119
+    },
+    {
+      "path": "Content/Assets/Source/_static/thermoacoustic_pulldown/pulldown.svg",
+      "sha256": "7afb19d6cf9a5913c8a7b2597229174dee3b01fd146538ce2114a9c9ce56e3f1",
+      "bytes": 28018
+    },
+    {
+      "path": "Content/Assets/Source/_static/thermoacoustic_pulldown/variants.svg",
+      "sha256": "8b3a2718585e267db76634f5edffd619b1bab03c2b64649dc24685dc29f29a9b",
+      "bytes": 47775
+    },
+    {
+      "path": "Content/Assets/Source/_static/truck_parking/conditioning.svg",
+      "sha256": "6827127364b2c31809c9f64d6cc99dd44de1e2201e10f1d8fef8bba95bf19b78",
+      "bytes": 59116
+    },
+    {
+      "path": "Content/Assets/Source/_static/truck_parking/iterations.svg",
+      "sha256": "16124841847f794dc7db9bbfe0f119f34b4475e1893bd52967533d09957d9d35",
+      "bytes": 35157
+    },
+    {
+      "path": "Content/Assets/Source/_static/truck_parking/plan.svg",
+      "sha256": "8fb31bb455b203844a017071917a8fca468ea01734ec23030d85d9eb0ebd1035",
+      "bytes": 36490
+    },
+    {
+      "path": "Content/Assets/Source/artifacts/aircraft_mppi/results.md",
+      "sha256": "5057a530c50c0d671085859aa0c2696cd2e7d973be1a422cad40fdae32dec0d2",
+      "bytes": 1367
+    },
+    {
+      "path": "Content/Assets/Source/artifacts/battery/results.md",
+      "sha256": "4ac2cea2e739c3c994ad07a26ca37aec7d18d42fce10be65737668ee01b92da7",
+      "bytes": 920
+    },
+    {
+      "path": "Content/Assets/Source/artifacts/bixi/results.md",
+      "sha256": "770508a0341eb4091549309fd3853e6edfbf977773c35e366b6c00312cf1c97e",
+      "bytes": 802
+    },
+    {
+      "path": "Content/Assets/Source/artifacts/boat_docking/results.md",
+      "sha256": "999d4f9ce1d14cbca8a7b3610d364f2b16be7adf858040010d189926d684f5ce",
+      "bytes": 703
+    },
+    {
+      "path": "Content/Assets/Source/artifacts/cubesat/results.md",
+      "sha256": "1f3e5f08e4e8ef40c0de6e777692ee1729392b77adfcf45518070d3a051688ab",
+      "bytes": 2035
+    },
+    {
+      "path": "Content/Assets/Source/artifacts/gimbal/results.md",
+      "sha256": "6a93d472f3c21b0a8f0a80036d7389b7625b6daac7c8e670d2eb2aa474349c35",
+      "bytes": 348
+    },
+    {
+      "path": "Content/Assets/Source/artifacts/inference_serving/thermal_phase_result.md",
+      "sha256": "b38f2d0a93c5c64c3136fa3f07535dec2943b5b1245df120d78108125e2444e7",
+      "bytes": 1035
+    },
+    {
+      "path": "Content/Assets/Source/artifacts/swing_modeling/results.md",
+      "sha256": "eeb25756dd06c2955d12244db8c763ed2c01126f0125d5545ba3d0bf638dd1a8",
+      "bytes": 815
+    },
+    {
+      "path": "Content/Assets/Source/artifacts/thermoacoustic_pulldown/results.md",
+      "sha256": "86e444810bd4c32ac50f238ab9474a51205b29d5eb1cc6f76c4b525e468694c1",
+      "bytes": 1139
+    },
+    {
+      "path": "Content/Assets/Source/artifacts/truck_parking/results.md",
+      "sha256": "bd70eab3798df620d93b1c36ff38c9524494d4639ecd0917b10668520a89c9a6",
+      "bytes": 1008
+    },
+    {
+      "path": "Content/Assets/Source/code/battery_control.py",
+      "sha256": "67f5e9ef88055b58cac11b250a3ee7f55fbe93989fd060fc476bb0f57330c36b",
+      "bytes": 42830
+    },
+    {
+      "path": "Content/Assets/Source/code/bixi_control.py",
+      "sha256": "188eaac0356579a2148e10062b7a9dca99e267fc090f89e33046eae08b84dc07",
+      "bytes": 36353
+    },
+    {
+      "path": "Content/Assets/Source/code/cartpole_control.py",
+      "sha256": "e11caabb46764769c30b2114618e1c2f90e2eeb849b945b506fa35a20cc7c709",
+      "bytes": 39269
+    },
+    {
+      "path": "Content/Assets/Source/code/collocation_transcription.py",
+      "sha256": "a94403f3604ac802160bd742f4e0e4bfb4d20dd48c9af04a9d2a788363e6fbc1",
+      "bytes": 10220
+    },
+    {
+      "path": "Content/Assets/Source/code/crane_control.py",
+      "sha256": "3fe352b88e4249f09a033f17f1b33d1c491c63ad89b0d460597f2485f18b384a",
+      "bytes": 25931
+    },
+    {
+      "path": "Content/Assets/Source/code/gimbal_control.py",
+      "sha256": "66975d8f356f2eea67d29d539d716a2135db7bfb7313f99a90f3a5e7f7aae1bc",
+      "bytes": 32317
+    },
+    {
+      "path": "Content/Assets/Source/code/inference_control.py",
+      "sha256": "97193885e9a88ebcba41273f10e0ee9d62b82b28451ec114e13344c3d61202e0",
+      "bytes": 78364
+    },
+    {
+      "path": "Content/Assets/Source/code/inference_serving.py",
+      "sha256": "00767829bb8998692fc90ce6e574cbeb502c2930fe9b308642ea35cf42b2e545",
+      "bytes": 73221
+    },
+    {
+      "path": "Content/Assets/Source/code/swing_control.py",
+      "sha256": "cdbca9b208cbebdca02cb20766aeb89b49e9289928020a46e3b89bc5ac4b9a4f",
+      "bytes": 58565
+    },
+    {
+      "path": "Content/Assets/Source/code/truck_parking.py",
+      "sha256": "ba997940584660f3dde9a2de303cd9b1bb839cd8b741908cd85fc5afc0b5aad9",
+      "bytes": 17799
+    },
+    {
+      "path": "Content/Assets/Source/code/wave_energy.py",
+      "sha256": "30ca3c49bfa1a790a63e425a0ef2005886ba79b9e0449a88750642f2b3d3d772",
+      "bytes": 27543
+    },
+    {
+      "path": "Content/Assets/Website/00e0a1430b-inference-serving-bo-8a67a6a85379fa2222bc62b552cc9ab2.svg",
+      "sha256": "c4dcc551308717b91e6dfeb176f37e65db4d7b82181dda6524842b8a5307af5e",
+      "bytes": 18043
+    },
+    {
+      "path": "Content/Assets/Website/03ea093e1e-batch-calibration-145327ff00ed00e93e8ddc0d38dde552.svg",
+      "sha256": "9bd34a7698560ee474884b7e8253f8760bf7ff3cf437d1cbcefb3903f50d37d1",
+      "bytes": 39457
+    },
+    {
+      "path": "Content/Assets/Website/112f6a090f-era5_wind-ad3d7065ebb2bd6178fdcfce05d47e8a.json",
+      "sha256": "1029e8eae32bf3e430b67f84cc78b046f8ce0160f80af25289d2338e5cfb1dfb",
+      "bytes": 862
+    },
+    {
+      "path": "Content/Assets/Website/113a124045-mpc-129e51f4b8d464111b4547eec7312038.svg",
+      "sha256": "57a1657993e79c2f6dbc3708e705a90428a78c71292b0d8e67abc975186dbfae",
+      "bytes": 29108
+    },
+    {
+      "path": "Content/Assets/Website/1230069b4f-conditioning-5f96b6d72f72141ca223a31c2e7e58ef.svg",
+      "sha256": "56619d025b58655b525046daac74411511003ebc19523d8d9eefb1c58ea379ca",
+      "bytes": 57922
+    },
+    {
+      "path": "Content/Assets/Website/14d6dbb7b6-66daaa35e85c437a729d68d79ef70225.png",
+      "sha256": "6b28891f15d82680dc14fe7e94c42bd4c6e1356a14350c58ce26fa1e244469cc",
+      "bytes": 353174
+    },
+    {
+      "path": "Content/Assets/Website/1804839975-polynomial-coordinat-f389dab0e2c32fb109322604167a0464.svg",
+      "sha256": "798da45a5fc678c520334b364cd02c90e1430f77f0bb92f37037af828cfa7977",
+      "bytes": 6551
+    },
+    {
+      "path": "Content/Assets/Website/18e509432a-scheduling-8d922de8c9d6a63f10569833037c80f4.svg",
+      "sha256": "1fecc7f4497809226bdd5b97f4d58b48e06d8ff04252d8c26b476796625b76d3",
+      "bytes": 112762
+    },
+    {
+      "path": "Content/Assets/Website/1d1bb08900-brownian-passages-c81498b27c139d170c1e1ea876211800.svg",
+      "sha256": "ac15c68adbcf97dfc8725ee5df71433a3d4279273b5a58bbe0905562bd8cdda6",
+      "bytes": 89193
+    },
+    {
+      "path": "Content/Assets/Website/1e3da18062-7e2db436150c38a00650f96925aa5581.svg",
+      "sha256": "a590b05e22690c59d120ad562fa6bd74f9e2e8e5f5a8c88381e1bebc99ad0f22",
+      "bytes": 2369
+    },
+    {
+      "path": "Content/Assets/Website/1e514a0659-metrics-fdbff6ae6c960784b2f506106bc44983.json",
+      "sha256": "e1324d43d6bf29c13104f4bfc27bb258edf6f2359b958e7a5ad7c47f356b22e5",
+      "bytes": 60656
+    },
+    {
+      "path": "Content/Assets/Website/24f5481a62-convergence-1d0f11a24f7cd58df38e1873cdaf44b2.svg",
+      "sha256": "d4377ebbb9826f4cdef486266e4546d52c78cdfc3af55c59ad802805881ecdcf",
+      "bytes": 24405
+    },
+    {
+      "path": "Content/Assets/Website/2c9cd20e8f-local-time-pieces-e55ebfdc0a175ca73628f177d3116bde.svg",
+      "sha256": "45377a77bfc9f81e5ae8ec711c9e54d6c0fb57e776e70661df78a7814ec4fde9",
+      "bytes": 61848
+    },
+    {
+      "path": "Content/Assets/Website/2de24230e2-89b6e9eda1b9b68338de380035bf2770.png",
+      "sha256": "fc8e33f5291015c35fa5f2b19417db7df87d9fe0212377b930de82d95fa18dd7",
+      "bytes": 109807
+    },
+    {
+      "path": "Content/Assets/Website/30d892ce95-destination-and-slop-935fcaaafb9071c1ce4769b86804b737.svg",
+      "sha256": "2163f40bc38aa5742760ec9600a39fe02635eaf7acfa2c333261362423af1f97",
+      "bytes": 168577
+    },
+    {
+      "path": "Content/Assets/Website/334f4983c3-metrics-adbb88abcc4191fb585d76c00baceac2.json",
+      "sha256": "dfe6f062118c6363772ce82195c9e287ab2ab0a58840446216c5ae15a3ed6578",
+      "bytes": 402041
+    },
+    {
+      "path": "Content/Assets/Website/33bb10f285-thermal_history_deve-59e11603509b8db1a9055ab69dadf1d5.json",
+      "sha256": "b7d36aee9c338326abe685f34b9c18fd2c00540d1bf5084d3226ca2a635778f5",
+      "bytes": 1037085
+    },
+    {
+      "path": "Content/Assets/Website/33cc66ffef-metrics_dp-bb1c6b4ce69fee7e33f6d5cb996bd821.csv",
+      "sha256": "2dadc3cae5179fd134bf140d72c4e4246bcc9c426320fb20eb535f85e0545d96",
+      "bytes": 309
+    },
+    {
+      "path": "Content/Assets/Website/344ed127e7-bixi-completed-trip--f4946e8542c4c8d21ca2b3e9418dd6b4.svg",
+      "sha256": "83918ce7c7435705ab7276a491d7fa731de91a0fdff498fed3292b82d364c9a5",
+      "bytes": 59729
+    },
+    {
+      "path": "Content/Assets/Website/35397a894a-56c6de38ac1e8d4f23233f282e9ff7e6.png",
+      "sha256": "c54ee138c61d7406ab554dd068a446996d2fd2465ca220c659fd277214dbf0eb",
+      "bytes": 63637
+    },
+    {
+      "path": "Content/Assets/Website/3a1e2d38ee-bixi-model-interface-e79fa6008b4ba75553a5f7f5acf796aa.svg",
+      "sha256": "debb8181808b543d45099d593cb73bea42554f3b7da0a56273cbbc7f3379369c",
+      "bytes": 58700
+    },
+    {
+      "path": "Content/Assets/Website/3b5a4c4b9f-thermoacoustic-refri-c73132288faaff6741ae7e0674dbece4.json",
+      "sha256": "564c5c8bb5f7eb9b755554e90705f6a83eb81e1cac2e8440473cd44e773e82a5",
+      "bytes": 105995
+    },
+    {
+      "path": "Content/Assets/Website/3bc37ce0de-thermal_history_deve-34646dbb6b1e9d26544807d7714e0f93.json",
+      "sha256": "29762d322c856a8646f2e6fd8058a41555fe353884af581a3296c7d9f3032da6",
+      "bytes": 232592
+    },
+    {
+      "path": "Content/Assets/Website/3cc30d7a35-metrics-a9ac709b7f9e1f3e53ac528c9ad56a8a.json",
+      "sha256": "eed28810fe618396642a078a8652e3d2d535621101f36813c56e6f3ebc7ed187",
+      "bytes": 21936
+    },
+    {
+      "path": "Content/Assets/Website/3e570f1036-metrics-482b1b011eb06fb95c0f839b0539759e.svg",
+      "sha256": "afff18ec5e4279d25198acec181b0a66836e953149b730986ce10a874ee2dbec",
+      "bytes": 74244
+    },
+    {
+      "path": "Content/Assets/Website/3efa432549-plan-3026d655f873b1c3d0b17f11fcbc7cb7.svg",
+      "sha256": "4696639025f1fa0fa4fddd62fbc559683a6f8aa10bf93c537116750080d94161",
+      "bytes": 35395
+    },
+    {
+      "path": "Content/Assets/Website/4157c4b71c-model_audit-6f7f4eb839af7528c8a12fafb73c493f.svg",
+      "sha256": "b44cae11fe2f3a388c8ecc6b65c8c6c8c59548b4cd8d0ed203c23ad9b088e5db",
+      "bytes": 177373
+    },
+    {
+      "path": "Content/Assets/Website/4320a5ebb1-modeling-ac1a5c2302fd2fd70a3b7dc99cbad041.svg",
+      "sha256": "d8c396da18f9eee8ba79e26b3d875597f35691dd9de8b5a16671b4a02cd5a536",
+      "bytes": 17513
+    },
+    {
+      "path": "Content/Assets/Website/43dd14ca19-brownian-feedback-5fb028d7e8f563a44c636d26801ac2a0.svg",
+      "sha256": "300c1e55f31b41220dba94108ad49f95bf1e23014eb18934389355bd63d4c717",
+      "bytes": 27117
+    },
+    {
+      "path": "Content/Assets/Website/460706c542-article-92c02a4d51251cc17113676ccb4c56f3.pdf",
+      "sha256": "30de5da638fad65c43ac3fa827eed7fcb44a70fddfb60022671fb0079c8a74c2",
+      "bytes": 1904994
+    },
+    {
+      "path": "Content/Assets/Website/55cb542c3d-f75d340a8ba11784a34487584446ccb9.png",
+      "sha256": "5f6684e311fd4c5d5cb9c0a33a798840555d49f7497738fa6eac374401e45e43",
+      "bytes": 119149
+    },
+    {
+      "path": "Content/Assets/Website/58f4703b00-gaussian-mean-3a9b75c0856ab5500ee76e5281476a02.svg",
+      "sha256": "66a9281dfc72e028ee9d5a3cbd6ca3232667f1cb572f7df0911d1fa3c47241b4",
+      "bytes": 221658
+    },
+    {
+      "path": "Content/Assets/Website/590cc9bf60-swing-reduced-coordi-c9914f636583e2a0c7a3246eb6fccc3c.svg",
+      "sha256": "1ec915a2cade690e5e19a3ec94f9b39db2ac39c9e2dccbb7836be6b24e87ad01",
+      "bytes": 15983
+    },
+    {
+      "path": "Content/Assets/Website/5c8a870b52-f63a72df5c8f77c084960c82cd6fe252.png",
+      "sha256": "27237f453f9cb8af27f10f7e4408e7c359f526911b8186ce5d82658eccbdfb37",
+      "bytes": 44370
+    },
+    {
+      "path": "Content/Assets/Website/5d155e739a-convergence-c9b79a2171f5a3fbdfa9e614b0acb581.svg",
+      "sha256": "6fa80cac930a3bdbbb460ff1446cc78991924bf744b05b2b789deb08fd743c9b",
+      "bytes": 33864
+    },
+    {
+      "path": "Content/Assets/Website/605bed68f9-paths-29cb7f444f8996d8e8ebb1cca8315a7c.svg",
+      "sha256": "cd422fff1e934b9e19567d92531195dbb30d9e81b652e8094a046be46ecfde8d",
+      "bytes": 30417
+    },
+    {
+      "path": "Content/Assets/Website/6139882e48-bdf83cadcc7fee7d7388bc2e0d5adcd9.png",
+      "sha256": "fda5a83c1fac4c67ecf0eaaaa1c275a93469990783235c2b772c78f0239f6a01",
+      "bytes": 804598
+    },
+    {
+      "path": "Content/Assets/Website/6286d4142d-41fbe6046609cd456f9f838a5cf8f3b1.png",
+      "sha256": "3a04ba49b72b28ff0a89e9431d91a89f775a3c3bd505929a2a846ae4cf4afab2",
+      "bytes": 44228
+    },
+    {
+      "path": "Content/Assets/Website/63967ddef0-46219a5e48a9923fad2ed834cf6a40c5.png",
+      "sha256": "619f43469533d5bf0f837aaf0613e27d6854425cdb78a9972d6f25fd4052453c",
+      "bytes": 56948
+    },
+    {
+      "path": "Content/Assets/Website/64988ac4f2-switching-trajectory-89dea3858e8b42226486dbc84de44406.svg",
+      "sha256": "09a63cb169bd65dbd300d3cd495e97cf2d9f2e80683aa2b09bf444dfb4ff406a",
+      "bytes": 51286
+    },
+    {
+      "path": "Content/Assets/Website/64f816799e-heat_exchanger-36d42c7ce90c38ee24e241c608f46188.svg",
+      "sha256": "8d24d8ce0221c519302db5de470cf00272f50ffac4e7e6d1e9983afbb29cb6d3",
+      "bytes": 1745
+    },
+    {
+      "path": "Content/Assets/Website/662f0188f0-cd4c331bc9637c2c4d4435f57b8f9aed.png",
+      "sha256": "6fe1cf1bb3d7b4032db1157d6f7f6cf0543e37bdaa08824e23c3e45327227367",
+      "bytes": 313466
+    },
+    {
+      "path": "Content/Assets/Website/676cde808f-fast-charging-9f9dfea31ffc4a132435cd979c3aa6f1.svg",
+      "sha256": "ed381b12d9032913ca3c415800a3df72a86e75739692c7c356069edbe191180a",
+      "bytes": 151095
+    },
+    {
+      "path": "Content/Assets/Website/692b743c72-open_loop_plan-63d27294d07480cd724dcc861674a5b5.csv",
+      "sha256": "5f7ce688b78b773ad3a16ad5561df582f28db5cd5fa00c14b1885f3c3cd014d4",
+      "bytes": 18237
+    },
+    {
+      "path": "Content/Assets/Website/6a8c04ae56-textbook_results-58b2e6e731d804132ef1bbdc1e5d5029.json",
+      "sha256": "0c9f94f9ae55faf88625957fb8a23de9ace52386fd55e3e94f9052150bb9b0f1",
+      "bytes": 272861
+    },
+    {
+      "path": "Content/Assets/Website/6aa509a778-collocation-stage-6d0eb8619f5cff77ca9811e98701ab06.svg",
+      "sha256": "746707d9f56cafb7a06878742e19d3817586d9dfef47d3e71cb74c306c27af33",
+      "bytes": 47477
+    },
+    {
+      "path": "Content/Assets/Website/6b5bb89660-c0c70ec142daea90e804c1c5ecc56cfa.png",
+      "sha256": "ab48d929af111bde02229c19c2b61e247ffba35a08c2062e6b2145dc24be2178",
+      "bytes": 109621
+    },
+    {
+      "path": "Content/Assets/Website/6d189a5bd2-5011498365c5fc41bba261a22e1c7a4d.png",
+      "sha256": "3f98084cb5988c819b7cdb17e34f86782fe649ea9e47eef029bcb4b13394108a",
+      "bytes": 37580
+    },
+    {
+      "path": "Content/Assets/Website/6dc2161c99-5c7c590f19c58f102a9293fc016c10c3.png",
+      "sha256": "65b49fc5fc068257d4f295c208c0444cd8d3c18a8d519c499703428f8b6ebe57",
+      "bytes": 190865
+    },
+    {
+      "path": "Content/Assets/Website/6ef6ff6ef9-1a4f5465d97e8e6583322a43f5026935.png",
+      "sha256": "160bb19f6a944c50811f1196dc1d4ad6bab8c75e639e1c348629d2e5222a84fb",
+      "bytes": 72932
+    },
+    {
+      "path": "Content/Assets/Website/72bf80041f-partial-observabilit-b3a06859601bdde1e579a4d1b7bbc3bf.svg",
+      "sha256": "890769311ae760d1ffde57e31a00e01cbbde8e3ff6b09af9c914ee94ac8849c1",
+      "bytes": 79117
+    },
+    {
+      "path": "Content/Assets/Website/72d918f6b9-open-loop-5d7784b7c585022685475482183c23a4.svg",
+      "sha256": "025de5b4087000520c1055d0f145ccf8017f6120e921870da239a6287cc5603e",
+      "bytes": 21232
+    },
+    {
+      "path": "Content/Assets/Website/7e36c1ed0b-open-loop-vs-feedbac-9ab83bb9f992dbbc9e4765b57bdc07a2.svg",
+      "sha256": "73e64b302b4d9f0220f8b1359633ea8200e336ae168d6ccf3a13389fcf5facff",
+      "bytes": 42284
+    },
+    {
+      "path": "Content/Assets/Website/7e62ae3b3e-metrics_fqi-05eea8b33b5a05af09576768f08f3a43.csv",
+      "sha256": "d2186eaf5dc6052403923637a71d6b05a10ed11c7f3b8db9f3b3e0bc2d5bc691",
+      "bytes": 544
+    },
+    {
+      "path": "Content/Assets/Website/7e8d549f41-df675e04c6ca5ea94457ccb6fd4e6be7.png",
+      "sha256": "d576a8209a9527212723e33be45a2e40fb9f9979669a2dbcd25b734e651142c7",
+      "bytes": 56596
+    },
+    {
+      "path": "Content/Assets/Website/8010c3a4da-nuclear_reactor-f81fb8dc98e83139dba2b3333a3a71ef.svg",
+      "sha256": "a10162bfba42ddfb64e9e04e16845679ba39daeadd78c1f46c8ea8bf1bd4a9a1",
+      "bytes": 3239
+    },
+    {
+      "path": "Content/Assets/Website/8182f12adf-thermal-phase-valida-2555822b59479d6cb02c1d6de79f3220.svg",
+      "sha256": "c0afc7f7e4863f2a786ed96804e813e27c808f038de2ce37310672ff999562ce",
+      "bytes": 154669
+    },
+    {
+      "path": "Content/Assets/Website/88e46b5dd8-linear-control-area-496e048af626d6485c06869c8dea696d.svg",
+      "sha256": "d6c0c7cb48c2de5199bc53ec154410e5ed55cc6057215442025ce655ef2b44ea",
+      "bytes": 2800
+    },
+    {
+      "path": "Content/Assets/Website/8977e86062-brownian-outcomes-36e9927c18241e9a7a6510a02f50e5cf.svg",
+      "sha256": "a9a3213213edde9d63b41a4db971f4774a209bd619ec8ac46015e38c088c24c4",
+      "bytes": 27136
+    },
+    {
+      "path": "Content/Assets/Website/8dd1ca2b39-19c964abde0e0222e8fd718c219bc4e4.png",
+      "sha256": "b04c33a5b05b6281070c552344f96d7eed6dcc79079be2029087aa942c3375b9",
+      "bytes": 30506
+    },
+    {
+      "path": "Content/Assets/Website/8e777f41a3-results-dc2f160e2689c1b7bf700c1d78e5952b.json",
+      "sha256": "a247c2915e7360cc9af2ef75965402bd23efc7a1d59342316fc886615b89b4a5",
+      "bytes": 17009
+    },
+    {
+      "path": "Content/Assets/Website/940e8d105f-swing_ppo_learning-3e38e82dceefe29d4c587137e25c8c6d.png",
+      "sha256": "68b52b2781d37091c8d056fe1864ba0c673070bb80c219aa749579c514cd1203",
+      "bytes": 65096
+    },
+    {
+      "path": "Content/Assets/Website/9b7ef391e5-iterations-afd50fc23f539c69a270b30b95226d04.svg",
+      "sha256": "f3f137bbb0ad45277125e8d08ee890115f12d004df20b28f02865f438334ae2c",
+      "bytes": 34155
+    },
+    {
+      "path": "Content/Assets/Website/9ca7a51551-brownian-samples-d1b1d2f1b28c3be7c86331263cae5b1b.svg",
+      "sha256": "a3ac23377c0d83d47c671cd3ec4e4727adc0c53ff93ef0f83588fa4d6dcb0eaa",
+      "bytes": 83391
+    },
+    {
+      "path": "Content/Assets/Website/9e4fb2a81f-iterations-a3e436c5a3bf6579cc568516add60208.svg",
+      "sha256": "c508720863360c5e2dd280e5868bdd339a7d85b40d5f932c2b8b1d41adf4af8d",
+      "bytes": 27038
+    },
+    {
+      "path": "Content/Assets/Website/a62491ae41-exponential-weights-13d3e3ef13ffb778ff86d56acb381443.svg",
+      "sha256": "58384fbbb6419aef80499b223c6c31747ef2e2fce1f78b28d74f34b3dbd66d98",
+      "bytes": 121030
+    },
+    {
+      "path": "Content/Assets/Website/afe82a045c-fqi-31fc97b2b6d0bde31db46aecdbc22e10.svg",
+      "sha256": "f829884e752040bad11ab8805bdec69ba1f7d2f89f17ab6eca960b46ece62742",
+      "bytes": 152534
+    },
+    {
+      "path": "Content/Assets/Website/b03487b571-manifest-221e59e77988c50944d1418773dc9a9d.json",
+      "sha256": "add4ca1eeb5729fc23cab4a1b093f67e059047ba56a8eaed07f3be550ab69f58",
+      "bytes": 4838
+    },
+    {
+      "path": "Content/Assets/Website/b3868abc93-wind_uncertainty-da717caa7b0680022d262b6efbf67184.svg",
+      "sha256": "c84f5fc75c404999a108535341d2e334f024296e1764647bbeebd163452813d4",
+      "bytes": 59244
+    },
+    {
+      "path": "Content/Assets/Website/b4156b1f00-piecewise-trajectory-b7459847145aea6dbb86aeb978a11dfe.svg",
+      "sha256": "f460ea209b692cbcf80b941dfb44582bbe87ceeefde1ff7d1477053abe221d3d",
+      "bytes": 61994
+    },
+    {
+      "path": "Content/Assets/Website/b895558bb4-bellman-contraction--fbeb5146f60e3f02f63e5419f7d7b2cd.png",
+      "sha256": "2d9fd1177c7002aa66d2ca1305b1eb425f683a8afabd6209378156a32103f388",
+      "bytes": 62956
+    },
+    {
+      "path": "Content/Assets/Website/ba480c84bc-446e7f56b3574a25f01e43008dd326aa.png",
+      "sha256": "03c865d83f8e68ee55797a7a2366a42fd9ca08576b32b851c7613b0293ab899c",
+      "bytes": 52361
+    },
+    {
+      "path": "Content/Assets/Website/bbaa7e1389-9fc519cdbdb508834e70546b83367eef.png",
+      "sha256": "5b766e32b70a09f36b71ea0152186b347c2f0b4c008295ea13de425ebcd53be8",
+      "bytes": 159423
+    },
+    {
+      "path": "Content/Assets/Website/bd6c9974dc-metrics_mpc-cd2def751ea0add08f4cce29d3ce2f58.csv",
+      "sha256": "a52fce495c7c8256273ab0675b4455bc906e51f50e653c0dd9a4d73b2bc3d0fd",
+      "bytes": 2159
+    },
+    {
+      "path": "Content/Assets/Website/be3eb964b8-l4_thermal_phase_tel-00cf4e0e7e21e1ea226f4204f7bb840b.csv",
+      "sha256": "cb896ac8d06dc1ed8b0e4abea826a802b3cb9df9a35bce602c61284030be09f5",
+      "bytes": 6437766
+    },
+    {
+      "path": "Content/Assets/Website/c151822aaf-future-and-motion-c18ca98ca05e0db8a19b619cd90881e2.svg",
+      "sha256": "1c149ac76495ac5bcc48de68765a9d2c8003337383da80dfbe68fd12eaa98db9",
+      "bytes": 37985
+    },
+    {
+      "path": "Content/Assets/Website/c4d75e4337-evaluation-and-diffe-b95b62c5c9438ac3fccc2408ad9add9e.svg",
+      "sha256": "44f6ba21f1a48e2a233bce62ce894e4bf2e0461d127ef6a84536af001f8a22a3",
+      "bytes": 217378
+    },
+    {
+      "path": "Content/Assets/Website/c6724a4a05-thermal_phase_fit_re-0673adbdf7c82e9c801adf478225e43b.json",
+      "sha256": "890809a2c764711b30d0e74b5db9c060abbe9e8d0a0cc2fdee0e4170407eec8f",
+      "bytes": 43362
+    },
+    {
+      "path": "Content/Assets/Website/c7811514e2-thermal_phase_valida-5fc4e699407deaceac0021b420c6fdd7.csv",
+      "sha256": "19533dccc9c30e6f153ebcbc4ceadc51c9eccdd5a93ad4094ea75d57478e9679",
+      "bytes": 18140
+    },
+    {
+      "path": "Content/Assets/Website/c7c5a4c913-stage-and-endpoint-058f449827efc25af4765659514c2a09.svg",
+      "sha256": "7196389fd234acfacd97044ea1ae079ae06335b4fdad251a245d9ec197c4787c",
+      "bytes": 129537
+    },
+    {
+      "path": "Content/Assets/Website/c841edc672-flight_comparison-eaf8d9e5be5439143cb18c4c365a0b4f.svg",
+      "sha256": "1f321102a271134f35ff2693d44fb2b1416c04264554e445d2efd39370c9f959",
+      "bytes": 113293
+    },
+    {
+      "path": "Content/Assets/Website/d2eacf12b6-sampling-and-integra-d442468b357267f89def2053c2b8f63a.svg",
+      "sha256": "5965aed113e438cc0bab29aa0062d13dd057d1ea88c750c613020401d4dde929",
+      "bytes": 53576
+    },
+    {
+      "path": "Content/Assets/Website/d50da40a2e-metrics-e6ba7fc06c666ace72cc6d7eaf029a7c.json",
+      "sha256": "52418dec2d44f1df00690df8f405e6f13713bc3a532437e760e7f23dfc2ff576",
+      "bytes": 4164
+    },
+    {
+      "path": "Content/Assets/Website/d577972762-bixi-feedback-eviden-3099b851efe7ae86d9d424515f0a9441.svg",
+      "sha256": "8b920874687ab5ee069ed9b0a687d09173c2b55ca9f03abfd41c045dc5c778a2",
+      "bytes": 104443
+    },
+    {
+      "path": "Content/Assets/Website/d7be79cc49-c4d898fce3db0caa989257f74a89ab46.png",
+      "sha256": "8910f79568ddfc1c84cb5d938cb0527cae080d266cb8d4cb11f2f60637181e07",
+      "bytes": 902499
+    },
+    {
+      "path": "Content/Assets/Website/d9ba72c8ff-variants-8420d7aaef9a55800a6235c76d7cde80.svg",
+      "sha256": "c173096ae915387dec08a1b0466ce20af3154f6b3f31fd0882e8b5d4d3528911",
+      "bytes": 45938
+    },
+    {
+      "path": "Content/Assets/Website/dbf0f7fbbd-98f2386e51f175de3a4ea7859176ca95.png",
+      "sha256": "ab27b07de327692f515d1eb847dbbb0d3c92625c41c70badddbd55d6baa2429b",
+      "bytes": 24083
+    },
+    {
+      "path": "Content/Assets/Website/df3c57fdb3-differential-drag-9a14c08068aa92bd1adb5436ba59bb7e.svg",
+      "sha256": "21702909fb44d13ce4260a4d167068d20f6307c827dc1d7aa47f0410ba4d8251",
+      "bytes": 243454
+    },
+    {
+      "path": "Content/Assets/Website/e170e75b0b-3776ea807959857403b937cac7bcd83d.png",
+      "sha256": "f31f012ea3bc8c36c8e064dffbca66458b3c6af00b896541455e35b860766e40",
+      "bytes": 24041
+    },
+    {
+      "path": "Content/Assets/Website/e882e10ad3-batch_calibration-3e069fe028408abf56c3ab3125112d45.csv",
+      "sha256": "1cf73e0fe313f07eae2bf9f441314369469c47b090e23c7355169e2315a468b0",
+      "bytes": 12637
+    },
+    {
+      "path": "Content/Assets/Website/ea067f1326-diagnostic_pulse-226054abb1960e73dafc94f9472e0597.csv",
+      "sha256": "a25d9edd2f29c14e399039909aaf080a39c7383a54402e798d0808c4e244be40",
+      "bytes": 8676
+    },
+    {
+      "path": "Content/Assets/Website/edd5ec1e7b-363294b6bc04a9b28ce467c7e99f16ba.png",
+      "sha256": "710c9e3222a0ea0aaee5cef354caa113d59fd416f2472ad64092c690e3a0ee8f",
+      "bytes": 179368
+    },
+    {
+      "path": "Content/Assets/Website/f5eeb5ba62-94a02ff0f3af8948afc0fbcc48afa70c.png",
+      "sha256": "7948888466d66212c235513e833c2da4875cea3fafef258a3fa09585314c8eab",
+      "bytes": 180992
+    },
+    {
+      "path": "Content/Assets/Website/f93ca39bd6-nlp-quantities-a18f7733ee47409b241a6f2ca6e90eff.svg",
+      "sha256": "c927e38f1de0aa5b004886df5d640eb86aa75289f1b550afb52701056b31dc0a",
+      "bytes": 221742
+    },
+    {
+      "path": "Content/Assets/Website/fdb21c6b3d-metrics_open_loop-bc8787d3ae658e9a66680fa963ec6594.csv",
+      "sha256": "9cf7cfb51a93dc901bb77928618596d8f5c594fa8b1d1216146a9eb6268e45dc",
+      "bytes": 1653
+    },
+    {
+      "path": "Content/Assets/Website/fed4c7ad52-8199d6bbb0e59c6490e117fcd1ede2f3.png",
+      "sha256": "5b84d612eedeca57622e28da60f25c776018a65bd6ae51b8daeddc1fe395456f",
+      "bytes": 73424
+    },
+    {
+      "path": "Content/Assets/Website/ff30e8c5c1-pulldown-9186f5b8900724a36a7537874cda5746.svg",
+      "sha256": "10131bcb838110ac730dafa8b39fbde2a06fcda452ff6f4352b302f46a1faf2d",
+      "bytes": 27135
+    },
+    {
+      "path": "Content/Assets/Website/fffc58d678-metrics-52526989adf113cc41db588c9d2fd193.csv",
+      "sha256": "455d56deae1810425e9f4bdae3561ef660be919bac88a1ce7286453dc44b2c2e",
+      "bytes": 10031
+    },
+    {
+      "path": "Content/README.md",
+      "sha256": "a9f5876877c86454e24ce08c100a9a79e82e7634c57be34c9878e8f42a157d79",
+      "bytes": 5919
+    },
+    {
+      "path": "Content/Website/01-intro.md",
+      "sha256": "5a8ec9d32d202a2f8dc8a37bec663799d5e746e6f03182d0c3afedee2c4f65d0",
+      "bytes": 15964
+    },
+    {
+      "path": "Content/Website/02-syllabus.md",
+      "sha256": "675138749290723d254f6f56a934fb597ac612b06f537afc8f4d1310fe22a423",
+      "bytes": 32278
+    },
+    {
+      "path": "Content/Website/03-modeling-controlled-systems.md",
+      "sha256": "8f5ed9a3ccde0f99d576cbe4e7461893c0bbdce664f8dcdb8f62ac217ec0cefd",
+      "bytes": 42414
+    },
+    {
+      "path": "Content/Website/04-stochastic-dynamics-observation.md",
+      "sha256": "0c5bd8724110aa7333784616ef7e653240cf952c4970679d2b52f223a889fb06",
+      "bytes": 41343
+    },
+    {
+      "path": "Content/Website/05-model-interfaces.md",
+      "sha256": "417dd54f665fd5e848f9fbf579ca6beda4cebf899b01b305a0576b3480ee1fb4",
+      "bytes": 53007
+    },
+    {
+      "path": "Content/Website/06-discrete-time-optimal-control.md",
+      "sha256": "1e71dc2c9081a8ee3ea76d609fd1039f9e9335461f21ebe64cd91df424d1d281",
+      "bytes": 67585
+    },
+    {
+      "path": "Content/Website/07-discrete-time-pmp.md",
+      "sha256": "702d16d5a511589de3c136ff92be6737ddc6ede2900ae138d8fc4430035fb5aa",
+      "bytes": 17938
+    },
+    {
+      "path": "Content/Website/08-numerical-trajectory-optimization.md",
+      "sha256": "6f091ec7879c00f1c71ef071113e49aecf70b26d154a5c3f1332eecb00fdef37",
+      "bytes": 83934
+    },
+    {
+      "path": "Content/Website/09-iterative-trajectory-optimization.md",
+      "sha256": "5ad4194c45bc497ffbba497de6ade28bf19c770d2930d559517915f373cc17a3",
+      "bytes": 57908
+    },
+    {
+      "path": "Content/Website/10-continuous-time-collocation.md",
+      "sha256": "b6ef2826c16215c4f84b08cbb37098160b33793b81b66a9f853b372543cc76eb",
+      "bytes": 172540
+    },
+    {
+      "path": "Content/Website/11-model-predictive-path-integral-control.md",
+      "sha256": "da5752088bb82819a277f89333221d7df5bcab652a5edb9596e0457ed47ce5c6",
+      "bytes": 72479
+    },
+    {
+      "path": "Content/Website/12-receding-horizon-control.md",
+      "sha256": "6b8aceeccbb28eacee7e8323aeb0111463d3437dca5db29961c322fa640307c4",
+      "bytes": 24388
+    },
+    {
+      "path": "Content/Website/13-mpc-variants-reliability.md",
+      "sha256": "e177e38fb2100a49fa846e17b3c752dd7675079c55b2fa730f866d02cde89d36",
+      "bytes": 53980
+    },
+    {
+      "path": "Content/Website/14-parametric-controllers.md",
+      "sha256": "edc4505db5dd6d75e405c607750f37364ee864e08f8f6f4b53d8ee5d38b80d45",
+      "bytes": 27998
+    },
+    {
+      "path": "Content/Website/15-finite-horizon-dp.md",
+      "sha256": "ce4498e07d71dc97f36245c32f537f6c716caebe69cce13221e8ab374b7da38d",
+      "bytes": 50125
+    },
+    {
+      "path": "Content/Website/16-stochastic-dp.md",
+      "sha256": "f4dee46b9934bd3b87646ccc36692e58fb0c8e3a9ec5004baf60ea5c1b7981f3",
+      "bytes": 41916
+    },
+    {
+      "path": "Content/Website/17-path-integral-stochastic-control.md",
+      "sha256": "1bb3d91939dc12f9b793202b9b6a4db27cd546c4610592489a47f1f3b66a8aad",
+      "bytes": 50483
+    },
+    {
+      "path": "Content/Website/18-infinite-horizon-mdps.md",
+      "sha256": "b29e8e576bc1a55bf478f09dd142e460e424fdfef42455500d84e83bc9c549c2",
+      "bytes": 72644
+    },
+    {
+      "path": "Content/Website/19-regularized-dp.md",
+      "sha256": "a5ab81cf0d7f5e7a2427e1defeeb0bb005694a043d0843eec65e2ef8d3f70990",
+      "bytes": 53276
+    },
+    {
+      "path": "Content/Website/20-weighted-residual-methods.md",
+      "sha256": "46d49f724f402d0ee17c3cfe558f74bd10fd1a7ee5c1f7c7512381cc72b497f1",
+      "bytes": 43724
+    },
+    {
+      "path": "Content/Website/21-approximate-bellman-equations.md",
+      "sha256": "14486f410b5fcf3279e03ea19dcbe2efc891aac80e43e3a8db9bf9190b2aa954",
+      "bytes": 72301
+    },
+    {
+      "path": "Content/Website/22-monte-carlo-bellman-estimation.md",
+      "sha256": "22827536c3c4f0393cfa4388ee59e4f293b77bbd06e796edf1e288942e3671e4",
+      "bytes": 65977
+    },
+    {
+      "path": "Content/Website/23-fitted-q-iteration.md",
+      "sha256": "dfb8eff99e339f12fa7429570fa7da7ec68682c49693386ec959520ea6ad01a6",
+      "bytes": 88820
+    },
+    {
+      "path": "Content/Website/24-amortized-action-optimization.md",
+      "sha256": "763961e479a5f06919142afbf51e7613b43cd678c276ed5a257e49eeb235245f",
+      "bytes": 43798
+    },
+    {
+      "path": "Content/Website/25-gradient-estimation.md",
+      "sha256": "aa5f16a6abed1cfc99dc5e7e6f9eeaca4eab7423c6602cbf753b173e6700e94d",
+      "bytes": 21613
+    },
+    {
+      "path": "Content/Website/26-regularized-policy-learning.md",
+      "sha256": "2ee24e35c59271875bce91b52564d0e8981ea36a59a327a3b7940c507b44e3cc",
+      "bytes": 42399
+    },
+    {
+      "path": "Content/Website/27-policy-gradients.md",
+      "sha256": "5b0a713032db6630c9e5d4a3822040df484147908c5ae59645c5e817bc5d14f8",
+      "bytes": 83483
+    },
+    {
+      "path": "Content/Website/28-collocation-from-nodes.md",
+      "sha256": "006d9c3bab1d8429e69b5d90339a2acc42496416635d82c5cf7aba5be0d08236",
+      "bytes": 59166
+    },
+    {
+      "path": "Content/Website/29-appendix-examples.md",
+      "sha256": "e3d358d0a292177c28551b9b61da5d25d28bd0ccae3c3a16da7ecfe79770abb9",
+      "bytes": 10708
+    },
+    {
+      "path": "Content/Website/30-appendix-ivps.md",
+      "sha256": "dda9541d9c0797c4444a8805a8ac89c5631778452f8a9601d87e95e70aed09b7",
+      "bytes": 17031
+    },
+    {
+      "path": "Content/Website/31-appendix-nlp.md",
+      "sha256": "e525b13de069caa9f4932f177ff3959879829f45104c3af8b1da206df37e9baf",
+      "bytes": 68454
+    },
+    {
+      "path": "Content/Website/README.md",
+      "sha256": "d3f05dbdd3b1967f7f155066bee450ca014d8ba054af7bf6d609bcd368115857",
+      "bytes": 381
+    },
+    {
+      "path": "Resources/lab-guide.md",
+      "sha256": "da255be2a2cb901a6ab2aecfec6bb40a5196c5b857676915d5fd9f59dcbd58f0",
+      "bytes": 3678
+    },
+    {
+      "path": "Resources/Notebooks/01_finite_mdp_policy_evaluation.ipynb",
+      "sha256": "baca5a681c5149ce86bf6da27fd725b9d042bef0d4df0e85091e2308faa4373e",
+      "bytes": 3004
+    },
+    {
+      "path": "Resources/Notebooks/02_value_and_policy_iteration.ipynb",
+      "sha256": "593c39168c31e3ad7a4510ff6d28088a4679c51c72f532d11a82cc022ab56472",
+      "bytes": 3487
+    },
+    {
+      "path": "Resources/Notebooks/03_monte_carlo_estimators.ipynb",
+      "sha256": "0172bafbf5bc9e3b757ff89ef705bb4ad2315e4771010ff7f65cb6bb995f2ac1",
+      "bytes": 3158
+    },
+    {
+      "path": "Resources/Notebooks/04_ode_discretization.ipynb",
+      "sha256": "d1f7b31fc19a2a52185217d48d089197078b79c235654c2ff602f0f4b990bb4f",
+      "bytes": 3376
+    },
+    {
+      "path": "Resources/Notebooks/05_finite_horizon_lqr.ipynb",
+      "sha256": "f0d14a5d0f40bfd7de5061f2723104307f7c588dcfb88086cce81821f4a2c4f1",
+      "bytes": 3421
+    },
+    {
+      "path": "Resources/Notebooks/06_scipy_trajectory_optimization.ipynb",
+      "sha256": "cd2c1c9408d6503fa5dc3ab0086e09c2f51b27a34d3bbc903deb9bfdbee4f071",
+      "bytes": 3877
+    },
+    {
+      "path": "Resources/Notebooks/07_lagrange_operators.ipynb",
+      "sha256": "b60fa42d0f12720e5118a79b85ac2ae87137298a9a38c887843a98d09c89e663",
+      "bytes": 22106
+    },
+    {
+      "path": "Resources/Notebooks/08_collocation_from_nodes.ipynb",
+      "sha256": "bfc24c18e8a877dbea1e24d21b16d4f501149d2947351e9dca9d7b8c13839cc2",
+      "bytes": 1646042
+    },
+    {
+      "path": "Resources/references.bib",
+      "sha256": "8168cbabfc2d2e6fa3d4bedd53ba71d2eede1527da6393cc64ccd36ffd5ff5d1",
+      "bytes": 50007
+    },
+    {
+      "path": "Resources/rlbook.pdf",
+      "sha256": "b08d49ea46c1618e29e2462721651ec77cdcb6cc65aa30fb5b2f5259bee578a3",
+      "bytes": 6890347
+    },
+    {
+      "path": "Sources/navigation.json",
+      "sha256": "e3fda93d73d6d8a7a3956babd5984464ecb71cdfe8db516c982c12748ca22724",
+      "bytes": 14100
+    }
+  ]
+}

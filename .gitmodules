@@ -1,0 +1,4 @@
+[submodule "ebook"]
+	path = ebook
+	url = https://github.com/pierrelux/rlbook.git
+	branch = main

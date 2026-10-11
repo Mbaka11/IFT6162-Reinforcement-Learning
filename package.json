@@ -1,0 +1,23 @@
+{
+  "name": "ift6162-reinforcement-learning",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Organisation et import reproductible du cours IFT6162 / RL & Control.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "import": "node scripts/import-course.mjs",
+    "import:offline": "node scripts/import-course.mjs --offline",
+    "check": "node scripts/check-course.mjs",
+    "chatgpt:pack": "node scripts/pack-chatgpt.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "cheerio": "1.1.2",
+    "turndown": "7.2.2",
+    "turndown-plugin-gfm": "1.0.2",
+    "yaml": "2.9.1"
+  }
+}

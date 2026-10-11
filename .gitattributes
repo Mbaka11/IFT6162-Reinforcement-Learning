@@ -1,0 +1,19 @@
+* text=auto
+*.md text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+.gitmodules text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.pdf binary
+*.npz binary
+*.bin binary
+*.ipynb text eol=lf
+*.bib text eol=lf
+# Preserve downloaded/copied resources byte-for-byte for checksum validation.
+Content/Assets/** -text

@@ -1,0 +1,479 @@
+{
+  "site": "https://pierrelucbacon.com/rlbook/",
+  "retrieved_at": "2026-10-11T20:49:16.557Z",
+  "source_commit": "aa6b5d14c796dbf47a7865d327246983dbb86e25",
+  "toc": [
+    {
+      "file": "intro.md"
+    },
+    {
+      "file": "syllabus.md"
+    },
+    {
+      "children": [
+        {
+          "file": "modeling-controlled-systems.md"
+        },
+        {
+          "file": "stochastic-dynamics-observation.md"
+        },
+        {
+          "file": "model-interfaces.md"
+        }
+      ],
+      "title": "Modeling Sequential Decisions"
+    },
+    {
+      "children": [
+        {
+          "file": "discrete-time-optimal-control.md"
+        },
+        {
+          "file": "discrete-time-pmp.md"
+        },
+        {
+          "file": "numerical-trajectory-optimization.md"
+        },
+        {
+          "file": "iterative-trajectory-optimization.md"
+        },
+        {
+          "file": "continuous-time-collocation.md"
+        },
+        {
+          "file": "model-predictive-path-integral-control.md"
+        }
+      ],
+      "title": "Open-Loop Optimal Control"
+    },
+    {
+      "children": [
+        {
+          "file": "receding-horizon-control.md"
+        },
+        {
+          "file": "mpc-variants-reliability.md"
+        },
+        {
+          "file": "parametric-controllers.md"
+        }
+      ],
+      "title": "Feedback Control"
+    },
+    {
+      "children": [
+        {
+          "file": "finite-horizon-dp.md"
+        },
+        {
+          "file": "stochastic-dp.md"
+        },
+        {
+          "file": "path-integral-stochastic-control.md"
+        },
+        {
+          "file": "infinite-horizon-mdps.md"
+        },
+        {
+          "file": "regularized-dp.md"
+        }
+      ],
+      "title": "Dynamic Programming"
+    },
+    {
+      "children": [
+        {
+          "file": "weighted-residual-methods.md"
+        },
+        {
+          "file": "approximate-bellman-equations.md"
+        },
+        {
+          "file": "monte-carlo-bellman-estimation.md"
+        },
+        {
+          "file": "fitted-q-iteration.md"
+        }
+      ],
+      "title": "Approximate Value Methods"
+    },
+    {
+      "children": [
+        {
+          "file": "amortized-action-optimization.md"
+        },
+        {
+          "file": "gradient-estimation.md"
+        },
+        {
+          "file": "regularized-policy-learning.md"
+        },
+        {
+          "file": "policy-gradients.md"
+        }
+      ],
+      "title": "Parameterized Policy Optimization"
+    },
+    {
+      "children": [
+        {
+          "file": "lab/notebooks/08_collocation_from_nodes.ipynb"
+        }
+      ],
+      "title": "Demos"
+    },
+    {
+      "children": [
+        {
+          "file": "appendix_examples.md"
+        },
+        {
+          "file": "appendix_ivps.md"
+        },
+        {
+          "file": "appendix_nlp.md"
+        }
+      ],
+      "title": "Appendix"
+    }
+  ],
+  "pages": [
+    {
+      "number": "01",
+      "title": "Building Up RL: From Dynamics and Control to Learning",
+      "groups": [],
+      "source_file": "intro.md",
+      "slug": "",
+      "url": "https://pierrelucbacon.com/rlbook/",
+      "filename": "01-intro.md"
+    },
+    {
+      "number": "02",
+      "title": "Syllabus · Plan de cours",
+      "groups": [],
+      "source_file": "syllabus.md",
+      "slug": "syllabus",
+      "url": "https://pierrelucbacon.com/rlbook/syllabus",
+      "filename": "02-syllabus.md"
+    },
+    {
+      "number": "03",
+      "title": "Controlled Systems: Boundaries, States, and Actions",
+      "groups": [
+        "Modeling Sequential Decisions"
+      ],
+      "source_file": "modeling-controlled-systems.md",
+      "slug": "modeling-controlled-systems",
+      "url": "https://pierrelucbacon.com/rlbook/modeling-controlled-systems",
+      "filename": "03-modeling-controlled-systems.md"
+    },
+    {
+      "number": "04",
+      "title": "Stochastic Dynamics and Partial Observation",
+      "groups": [
+        "Modeling Sequential Decisions"
+      ],
+      "source_file": "stochastic-dynamics-observation.md",
+      "slug": "stochastic-dynamics-observation",
+      "url": "https://pierrelucbacon.com/rlbook/stochastic-dynamics-observation",
+      "filename": "04-stochastic-dynamics-observation.md"
+    },
+    {
+      "number": "05",
+      "title": "Model Interfaces and Learned Components",
+      "groups": [
+        "Modeling Sequential Decisions"
+      ],
+      "source_file": "model-interfaces.md",
+      "slug": "model-interfaces",
+      "url": "https://pierrelucbacon.com/rlbook/model-interfaces",
+      "filename": "05-model-interfaces.md"
+    },
+    {
+      "number": "06",
+      "title": "Finite-Horizon Optimal Control Problems",
+      "groups": [
+        "Open-Loop Optimal Control"
+      ],
+      "source_file": "discrete-time-optimal-control.md",
+      "slug": "discrete-time-optimal-control",
+      "url": "https://pierrelucbacon.com/rlbook/discrete-time-optimal-control",
+      "filename": "06-discrete-time-optimal-control.md"
+    },
+    {
+      "number": "07",
+      "title": "Adjoints and the Discrete-Time Pontryagin Principle",
+      "groups": [
+        "Open-Loop Optimal Control"
+      ],
+      "source_file": "discrete-time-pmp.md",
+      "slug": "discrete-time-pmp",
+      "url": "https://pierrelucbacon.com/rlbook/discrete-time-pmp",
+      "filename": "07-discrete-time-pmp.md"
+    },
+    {
+      "number": "08",
+      "title": "Numerical Trajectory Optimization",
+      "groups": [
+        "Open-Loop Optimal Control"
+      ],
+      "source_file": "numerical-trajectory-optimization.md",
+      "slug": "numerical-trajectory-optimization",
+      "url": "https://pierrelucbacon.com/rlbook/numerical-trajectory-optimization",
+      "filename": "08-numerical-trajectory-optimization.md"
+    },
+    {
+      "number": "09",
+      "title": "iLQR and Differential Dynamic Programming",
+      "groups": [
+        "Open-Loop Optimal Control"
+      ],
+      "source_file": "iterative-trajectory-optimization.md",
+      "slug": "iterative-trajectory-optimization",
+      "url": "https://pierrelucbacon.com/rlbook/iterative-trajectory-optimization",
+      "filename": "09-iterative-trajectory-optimization.md"
+    },
+    {
+      "number": "10",
+      "title": "Continuous-Time Transcription and Collocation",
+      "groups": [
+        "Open-Loop Optimal Control"
+      ],
+      "source_file": "continuous-time-collocation.md",
+      "slug": "continuous-time-collocation",
+      "url": "https://pierrelucbacon.com/rlbook/continuous-time-collocation",
+      "filename": "10-continuous-time-collocation.md"
+    },
+    {
+      "number": "11",
+      "title": "Model Predictive Path Integral Control",
+      "groups": [
+        "Open-Loop Optimal Control"
+      ],
+      "source_file": "model-predictive-path-integral-control.md",
+      "slug": "model-predictive-path-integral-control",
+      "url": "https://pierrelucbacon.com/rlbook/model-predictive-path-integral-control",
+      "filename": "11-model-predictive-path-integral-control.md"
+    },
+    {
+      "number": "12",
+      "title": "Receding-Horizon Control",
+      "groups": [
+        "Feedback Control"
+      ],
+      "source_file": "receding-horizon-control.md",
+      "slug": "receding-horizon-control",
+      "url": "https://pierrelucbacon.com/rlbook/receding-horizon-control",
+      "filename": "12-receding-horizon-control.md"
+    },
+    {
+      "number": "13",
+      "title": "MPC Variants and Reliable Operation",
+      "groups": [
+        "Feedback Control"
+      ],
+      "source_file": "mpc-variants-reliability.md",
+      "slug": "mpc-variants-reliability",
+      "url": "https://pierrelucbacon.com/rlbook/mpc-variants-reliability",
+      "filename": "13-mpc-variants-reliability.md"
+    },
+    {
+      "number": "14",
+      "title": "Parametric and Approximate Controllers",
+      "groups": [
+        "Feedback Control"
+      ],
+      "source_file": "parametric-controllers.md",
+      "slug": "parametric-controllers",
+      "url": "https://pierrelucbacon.com/rlbook/parametric-controllers",
+      "filename": "14-parametric-controllers.md"
+    },
+    {
+      "number": "15",
+      "title": "Finite-Horizon Dynamic Programming",
+      "groups": [
+        "Dynamic Programming"
+      ],
+      "source_file": "finite-horizon-dp.md",
+      "slug": "finite-horizon-dp",
+      "url": "https://pierrelucbacon.com/rlbook/finite-horizon-dp",
+      "filename": "15-finite-horizon-dp.md"
+    },
+    {
+      "number": "16",
+      "title": "Stochastic Dynamic Programming and Markov Decision Processes",
+      "groups": [
+        "Dynamic Programming"
+      ],
+      "source_file": "stochastic-dp.md",
+      "slug": "stochastic-dp",
+      "url": "https://pierrelucbacon.com/rlbook/stochastic-dp",
+      "filename": "16-stochastic-dp.md"
+    },
+    {
+      "number": "17",
+      "title": "Path-Integral Stochastic Control",
+      "groups": [
+        "Dynamic Programming"
+      ],
+      "source_file": "path-integral-stochastic-control.md",
+      "slug": "path-integral-stochastic-control",
+      "url": "https://pierrelucbacon.com/rlbook/path-integral-stochastic-control",
+      "filename": "17-path-integral-stochastic-control.md"
+    },
+    {
+      "number": "18",
+      "title": "Infinite-Horizon Markov Decision Processes",
+      "groups": [
+        "Dynamic Programming"
+      ],
+      "source_file": "infinite-horizon-mdps.md",
+      "slug": "infinite-horizon-mdps",
+      "url": "https://pierrelucbacon.com/rlbook/infinite-horizon-mdps",
+      "filename": "18-infinite-horizon-mdps.md"
+    },
+    {
+      "number": "19",
+      "title": "Smooth and Regularized Dynamic Programming",
+      "groups": [
+        "Dynamic Programming"
+      ],
+      "source_file": "regularized-dp.md",
+      "slug": "regularized-dp",
+      "url": "https://pierrelucbacon.com/rlbook/regularized-dp",
+      "filename": "19-regularized-dp.md"
+    },
+    {
+      "number": "20",
+      "title": "Weighted-Residual Methods",
+      "groups": [
+        "Approximate Value Methods"
+      ],
+      "source_file": "weighted-residual-methods.md",
+      "slug": "weighted-residual-methods",
+      "url": "https://pierrelucbacon.com/rlbook/weighted-residual-methods",
+      "filename": "20-weighted-residual-methods.md"
+    },
+    {
+      "number": "21",
+      "title": "Approximate Bellman Equations",
+      "groups": [
+        "Approximate Value Methods"
+      ],
+      "source_file": "approximate-bellman-equations.md",
+      "slug": "approximate-bellman-equations",
+      "url": "https://pierrelucbacon.com/rlbook/approximate-bellman-equations",
+      "filename": "21-approximate-bellman-equations.md"
+    },
+    {
+      "number": "22",
+      "title": "Monte Carlo Bellman Estimation",
+      "groups": [
+        "Approximate Value Methods"
+      ],
+      "source_file": "monte-carlo-bellman-estimation.md",
+      "slug": "monte-carlo-bellman-estimation",
+      "url": "https://pierrelucbacon.com/rlbook/monte-carlo-bellman-estimation",
+      "filename": "22-monte-carlo-bellman-estimation.md"
+    },
+    {
+      "number": "23",
+      "title": "Fitted Q-Iteration and DQN",
+      "groups": [
+        "Approximate Value Methods"
+      ],
+      "source_file": "fitted-q-iteration.md",
+      "slug": "fitted-q-iteration",
+      "url": "https://pierrelucbacon.com/rlbook/fitted-q-iteration",
+      "filename": "23-fitted-q-iteration.md"
+    },
+    {
+      "number": "24",
+      "title": "Amortized Action Optimization",
+      "groups": [
+        "Parameterized Policy Optimization"
+      ],
+      "source_file": "amortized-action-optimization.md",
+      "slug": "amortized-action-optimization",
+      "url": "https://pierrelucbacon.com/rlbook/amortized-action-optimization",
+      "filename": "24-amortized-action-optimization.md"
+    },
+    {
+      "number": "25",
+      "title": "Gradient Estimation for Stochastic Objectives",
+      "groups": [
+        "Parameterized Policy Optimization"
+      ],
+      "source_file": "gradient-estimation.md",
+      "slug": "gradient-estimation",
+      "url": "https://pierrelucbacon.com/rlbook/gradient-estimation",
+      "filename": "25-gradient-estimation.md"
+    },
+    {
+      "number": "26",
+      "title": "Regularized and Residual-Based Policy Learning",
+      "groups": [
+        "Parameterized Policy Optimization"
+      ],
+      "source_file": "regularized-policy-learning.md",
+      "slug": "regularized-policy-learning",
+      "url": "https://pierrelucbacon.com/rlbook/regularized-policy-learning",
+      "filename": "26-regularized-policy-learning.md"
+    },
+    {
+      "number": "27",
+      "title": "Policy Gradients and Actor-Critic",
+      "groups": [
+        "Parameterized Policy Optimization"
+      ],
+      "source_file": "policy-gradients.md",
+      "slug": "policy-gradients",
+      "url": "https://pierrelucbacon.com/rlbook/policy-gradients",
+      "filename": "27-policy-gradients.md"
+    },
+    {
+      "number": "28",
+      "title": "Direct Collocation for a Pendulum Swing-Up",
+      "groups": [
+        "Demos"
+      ],
+      "source_file": "lab/notebooks/08_collocation_from_nodes.ipynb",
+      "slug": "collocation-from-nodes",
+      "url": "https://pierrelucbacon.com/rlbook/collocation-from-nodes",
+      "filename": "28-collocation-from-nodes.md"
+    },
+    {
+      "number": "29",
+      "title": "Example COCPs",
+      "groups": [
+        "Appendix"
+      ],
+      "source_file": "appendix_examples.md",
+      "slug": "appendix-examples",
+      "url": "https://pierrelucbacon.com/rlbook/appendix-examples",
+      "filename": "29-appendix-examples.md"
+    },
+    {
+      "number": "30",
+      "title": "Solving Initial Value Problems",
+      "groups": [
+        "Appendix"
+      ],
+      "source_file": "appendix_ivps.md",
+      "slug": "appendix-ivps",
+      "url": "https://pierrelucbacon.com/rlbook/appendix-ivps",
+      "filename": "30-appendix-ivps.md"
+    },
+    {
+      "number": "31",
+      "title": "Nonlinear Programming",
+      "groups": [
+        "Appendix"
+      ],
+      "source_file": "appendix_nlp.md",
+      "slug": "appendix-nlp",
+      "url": "https://pierrelucbacon.com/rlbook/appendix-nlp",
+      "filename": "31-appendix-nlp.md"
+    }
+  ]
+}

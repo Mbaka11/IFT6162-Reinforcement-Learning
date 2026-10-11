@@ -1,0 +1,25 @@
+# Environnements et caches locaux
+node_modules/
+.cache/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Identifiants et fichiers personnels (ne jamais publier)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+private/
+Data/private/
+Assignments/private/
+Notes/private/
+
+# Résultats temporaires
+*.tmp
+*.log
+coverage/

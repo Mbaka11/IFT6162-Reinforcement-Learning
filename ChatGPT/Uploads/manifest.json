@@ -1,0 +1,65 @@
+{
+  "source_manifest_sha256": "a508104a0a0c0c9b242bca5360cc6a127eb66322ce889a71355d60930ebf80e1",
+  "chapter_count": 31,
+  "files": [
+    {
+      "file": "ChatGPT/Uploads/01-chapitres-01-a-08.md",
+      "chapters": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "bytes": 371801,
+      "sha256": "59742202eed1f92d4a5991a1883a35bb78f21b17ca99e2839544e66bddb30d66"
+    },
+    {
+      "file": "ChatGPT/Uploads/02-chapitres-09-a-16.md",
+      "chapters": [
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "bytes": 510728,
+      "sha256": "8fe44d8d2b075cd0ddaf617b93c6b388f50d0b52217f1a7cdaf4edbf94d96945"
+    },
+    {
+      "file": "ChatGPT/Uploads/03-chapitres-17-a-24.md",
+      "chapters": [
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "bytes": 499470,
+      "sha256": "0711fa088a963511bbf26e3da851d70374bea3fc42e1ebd85cd7aa3f503c296a"
+    },
+    {
+      "file": "ChatGPT/Uploads/04-chapitres-25-a-31.md",
+      "chapters": [
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "bytes": 308882,
+      "sha256": "30e45b21551d1f0f60661d68cbc680666925832d5bd0b15bddaeb6620bfb4f8f"
+    }
+  ]
+}
